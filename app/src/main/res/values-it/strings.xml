@@ -1308,4 +1308,91 @@
     <string name="debug_generate_description">Debug-generato %1$s elemento #%2$d</string>
     <string name="debug_generate_result_failed">Fallito: %1$s</string>
 
+    <!-- Hardware Decoding MPV -->
+    <string name="audio_mpv_hwdec_title">Decodifica hardware (solo MPV)</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">Seleziona come libmpv deve utilizzare i decoder hardware.</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">Legacy (diretto -&gt; copia)</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">Comportamento predefinito precedente: prova prima l\'hardware diretto, poi la copia.</string>
+    <string name="audio_mpv_hwdec_auto_safe">Auto (auto-safe)</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">Modalità automatica più sicura con fallback quando alcuni decoder hardware falliscono.</string>
+    <string name="audio_mpv_hwdec_hardware_copy">Hardware (copia) (mediacodec-copy)</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">Utilizza la decodifica hardware con copia nella memoria software.</string>
+    <string name="audio_mpv_hwdec_hardware_direct">Hardware (diretto) (mediacodec)</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">Utilizza la decodifica hardware diretta. Il percorso più veloce sui dispositivi compatibili.</string>
+    <string name="audio_mpv_hwdec_disabled">Disabilitato (no)</string>
+    <string name="audio_mpv_hwdec_disabled_desc">Disabilita la decodifica hardware e utilizza solo la decodifica software.</string>
+
+    <!-- Player engine -->
+    <string name="cd_switch_player_engine">Cambia motore di riproduzione</string>
+    <string name="playback_internal_player_engine">Motore interno</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_exoplayer_desc">Migliore compatibilità con le funzionalità attuali di Nuvio.</string>
+    <string name="playback_engine_mvplayer">Libmpv (Beta)</string>
+    <string name="playback_engine_mvplayer_desc">Utilizza libmpv con i controlli OSD di Nuvio. Sperimentale.</string>
+    <string name="playback_auto_switch_internal_player_on_error">Cambia motore automaticamente in caso di errore</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">Se l\'avvio del flusso fallisce, passa automaticamente tra ExoPlayer e libmpv.</string>
+    <string name="playback_show_loading_status">Mostra stato di caricamento</string>
+    <string name="playback_show_loading_status_sub">Mostra il progresso passo dopo passo durante l\'inizializzazione del player.</string>
+    <string name="player_engine_switching_title">Cambio motore di riproduzione</string>
+    <string name="player_engine_switching_message">Avvio fallito. Passaggio a %1$s…</string>
+    <string name="player_engine_switching_manual_message">Passaggio a %1$s...</string>
+    <string name="player_loading_preparing">Preparazione del flusso…</string>
+    <string name="player_loading_detecting_format">Rilevamento formato flusso…</string>
+    <string name="player_loading_subtitles">Recupero sottotitoli…</string>
+    <string name="player_loading_subtitles_from">Recupero sottotitoli da %1$d addon…</string>
+    <string name="player_loading_subtitles_progress">Recupero sottotitoli… (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">Sottotitoli: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">Costruzione player…</string>
+    <string name="player_loading_starting">Avvio flusso…</string>
+    <string name="player_loading_buffering">Buffering…</string>
+
+    <!-- Search -->
+    <string name="search_recent_title">Ricerche recenti</string>
+    <string name="search_recent_clear">Cancella cronologia</string>
+
+    <!-- Subtitle -->
+    <string name="subtitle_built_in">Integrato</string>
+
+    <!-- TMDB -->
+    <string name="tmdb_release_dates_title">Date di uscita</string>
+    <string name="tmdb_release_dates_subtitle">Date di uscita e di messa in onda da TMDB</string>
+
+    <!-- Web interface -->
+    <string name="web_manage_addons_title">Gestisci addon</string>
+    <string name="web_manage_addons_subtitle">Gestisci addon e cataloghi home</string>
+    <string name="web_add_addon_url">Aggiungi addon tramite URL</string>
+    <string name="web_placeholder_url">https://esempio.com/manifest.json</string>
+    <string name="web_btn_add">Aggiungi</string>
+    <string name="web_installed_addons">Addon installati</string>
+    <string name="web_no_addons">Nessun addon installato</string>
+    <string name="web_home_catalogs">Cataloghi home</string>
+    <string name="web_no_catalogs">Nessun catalogo home disponibile</string>
+    <string name="web_btn_save">Salva modifiche</string>
+    <string name="web_connection_lost">Connessione alla TV persa</string>
+    <string name="web_btn_remove">Rimuovi</string>
+    <string name="web_badge_new">Nuovo</string>
+    <string name="web_badge_disabled">Disabilitato</string>
+    <string name="web_btn_enable">Abilita</string>
+    <string name="web_btn_disable">Disabilita</string>
+    <string name="web_error_addon_exists">Questo addon è già nella lista</string>
+    <string name="web_status_waiting_tv">In attesa della TV</string>
+    <string name="web_status_msg_waiting_tv">Conferma le modifiche sulla tua TV per applicarle.</string>
+    <string name="web_status_changes_applied">Modifiche applicate</string>
+    <string name="web_status_msg_addon_updated">La configurazione dell\'addon è stata aggiornata sulla TV.</string>
+    <string name="web_status_msg_repo_updated">La configurazione del repository è stata aggiornata sulla TV.</string>
+    <string name="web_status_changes_rejected">Modifiche rifiutate</string>
+    <string name="web_status_msg_changes_rejected">Le modifiche sono state rifiutate sulla TV. La tua lista è stata ripristinata.</string>
+    <string name="web_status_error">Qualcosa è andato storto</string>
+    <string name="web_error_failed_save">Salvataggio fallito. Controlla la connessione alla TV.</string>
+    <string name="web_btn_dismiss">Chiudi</string>
+    <string name="web_status_timeout">Timeout</string>
+    <string name="web_status_msg_timeout">Nessuna risposta dalla TV. Riprova.</string>
+    <string name="web_status_msg_connection_lost">Il server TV non è più raggiungibile. Le modifiche potrebbero essere state applicate.</string>
+    <string name="web_manage_repos_title">Gestisci repository</string>
+    <string name="web_manage_repos_subtitle">Gestisci i tuoi repository</string>
+    <string name="web_add_repo_url">Aggiungi repository tramite URL</string>
+    <string name="web_installed">Installato</string>
+    <string name="web_no_repos">Nessun repository installato</string>
+    <string name="web_error_repo_exists">Questo repository è già nella lista</string>
+
 </resources>

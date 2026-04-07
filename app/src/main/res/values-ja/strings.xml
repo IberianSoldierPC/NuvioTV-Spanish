@@ -1182,4 +1182,205 @@
     <string name="update_ignore">無視</string>
     <string name="watchlist_added">ウォッチリストに追加しました</string>
     <string name="watchlist_removed">ウォッチリストから削除しました</string>
+
+    <!-- Account -->
+    <string name="account_signin_create_title">サインイン / アカウント作成</string>
+    <string name="account_signin_create_desc">メールアドレスとパスワードを使用してアカウントを作成またはサインインします。</string>
+    <string name="account_generate_sync_desc">他のデバイスが接続できるようにこのデバイスでコードを作成します。</string>
+    <string name="account_enter_sync_desc">同期コードを使用してこのデバイスを別のデバイスにリンクします。</string>
+    <string name="account_signed_in_as">サインイン中:</string>
+    <string name="account_generate_sync_signed_in_desc">他のデバイスがこのアカウントと同期できるようにコードを作成します。</string>
+    <string name="account_unknown_device">不明なデバイス</string>
+    <string name="account_error_signin_required">最初にアカウントでサインインしてください。</string>
+
+    <!-- Hardware Decoding MPV -->
+    <string name="audio_mpv_hwdec_title">ハードウェアデコード（MPVのみ）</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">libmpvがハードウェアデコーダーをどのように使用するかを選択します。</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">レガシー（直接 -&gt; コピー）</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">以前のデフォルト動作：最初に直接ハードウェアを試み、次にコピー。</string>
+    <string name="audio_mpv_hwdec_auto_safe">自動（auto-safe）</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">一部のハードウェアデコーダーが失敗したときにフォールバックするより安全な自動モード。</string>
+    <string name="audio_mpv_hwdec_hardware_copy">ハードウェア（コピー）（mediacodec-copy）</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">ソフトウェアメモリへのコピーでハードウェアデコードを使用します。</string>
+    <string name="audio_mpv_hwdec_hardware_direct">ハードウェア（直接）（mediacodec）</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">直接ハードウェアデコードを使用します。対応デバイスで最速のパス。</string>
+    <string name="audio_mpv_hwdec_disabled">無効（no）</string>
+    <string name="audio_mpv_hwdec_disabled_desc">ハードウェアデコードを無効にし、ソフトウェアデコードのみを使用します。</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_play">再生</string>
+    <string name="cd_pause">一時停止</string>
+    <string name="cd_subtitles">字幕</string>
+    <string name="cd_audio_tracks">音声トラック</string>
+    <string name="cd_sources">ソース</string>
+    <string name="cd_switch_player_engine">プレーヤーエンジンを切り替え</string>
+    <string name="cd_episodes">エピソード</string>
+    <string name="cd_playback_speed">再生速度</string>
+    <string name="cd_aspect_ratio">アスペクト比</string>
+    <string name="cd_open_external_player">外部プレーヤーで開く</string>
+    <string name="cd_stream_info">ストリーム情報</string>
+    <string name="cd_more_actions">その他の操作</string>
+    <string name="cd_close_more_actions">その他の操作を閉じる</string>
+    <string name="cd_back">戻る</string>
+    <string name="cd_next_episode_thumbnail">次のエピソードのサムネイル</string>
+    <string name="cd_current">現在</string>
+    <string name="cd_loading_backdrop">背景画像を読み込み中</string>
+    <string name="cd_loading_logo">ロゴを読み込み中</string>
+    <string name="cd_move_up">上に移動</string>
+    <string name="cd_move_down">下に移動</string>
+    <string name="cd_qr_code">QRコード</string>
+    <string name="cd_add">追加</string>
+    <string name="cd_refresh">更新</string>
+    <string name="cd_remove">削除</string>
+    <string name="cd_test">テスト</string>
+    <string name="cd_unlink">リンク解除</string>
+    <string name="cd_nuvio_logo">NuvioTV</string>
+    <string name="cd_trakt_logo">Traktロゴ</string>
+    <string name="cd_trakt_qr">Trakt認証QR</string>
+    <string name="cd_imdb">IMDb</string>
+    <string name="cd_open_discover">ディスカバーを開く</string>
+    <string name="cd_voice_search">音声検索</string>
+    <string name="cd_donation_qr">寄付QRコード</string>
+    <string name="cd_contributor_qr">コントリビューターサポートQRコード</string>
+    <string name="cd_expand">%1$s を展開</string>
+    <string name="cd_collapse">%1$s を折りたたむ</string>
+    <string name="cd_qr_login">QRログインコード</string>
+    <string name="cd_nuvio">Nuvio</string>
+
+    <!-- Debug -->
+    <string name="debug_signin_success">サインインに成功しました</string>
+    <string name="debug_generate_description">デバッグ生成 %1$s アイテム #%2$d</string>
+    <string name="debug_generate_result_failed">失敗: %1$s</string>
+
+    <!-- Discover -->
+    <string name="discover_disabled_title">ディスカバーは無効です</string>
+    <string name="discover_disabled_subtitle">設定で検索ディスカバーを有効にしてください</string>
+
+    <!-- Errors -->
+    <string name="error_network_required">この機能を使用するにはWi-FiまたはEthernetに接続してください</string>
+    <string name="error_server_ports_unavailable">サーバーを起動できませんでした。すべてのポートが使用中です。</string>
+    <string name="home_error_no_addons">アドオンがインストールされていません</string>
+    <string name="home_error_no_catalog_addons">カタログアドオンがインストールされていません</string>
+
+    <!-- Library -->
+    <string name="library_list_create_dialog_title">リストを作成</string>
+    <string name="library_list_edit_dialog_title">リストを編集</string>
+    <string name="library_sync_btn">同期</string>
+    <string name="library_syncing_btn">同期中…</string>
+
+    <!-- Player engine -->
+    <string name="playback_internal_player_engine">内部エンジン</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_exoplayer_desc">現在のNuvio機能との最高の互換性。</string>
+    <string name="playback_engine_mvplayer">Libmpv（ベータ）</string>
+    <string name="playback_engine_mvplayer_desc">Nuvio OSDコントロールでlibmpvを使用。実験的。</string>
+    <string name="playback_auto_switch_internal_player_on_error">エラー時にエンジンを自動切り替え</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">ストリーム起動が失敗した場合、ExoPlayerとlibmpvを自動的に切り替えます。</string>
+    <string name="playback_show_loading_status">読み込み状態を表示</string>
+    <string name="playback_show_loading_status_sub">プレーヤーの初期化中にステップバイステップの進行状況を表示します。</string>
+    <string name="player_engine_switching_title">プレーヤーエンジンを切り替え中</string>
+    <string name="player_engine_switching_message">起動に失敗しました。%1$sに切り替え中…</string>
+    <string name="player_engine_switching_manual_message">%1$sに切り替え中...</string>
+    <string name="player_error_no_stream_url">ストリームURLが提供されていません</string>
+    <string name="player_loading_preparing">ストリームを準備中…</string>
+    <string name="player_loading_detecting_format">ストリーム形式を検出中…</string>
+    <string name="player_loading_subtitles">字幕を取得中…</string>
+    <string name="player_loading_subtitles_from">%1$d個のアドオンから字幕を取得中…</string>
+    <string name="player_loading_subtitles_progress">字幕を取得中… (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">字幕: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">プレーヤーを構築中…</string>
+    <string name="player_loading_starting">ストリームを開始中…</string>
+    <string name="player_loading_buffering">バッファリング中…</string>
+    <string name="player_aspect_tunneling_unavailable">トンネル再生中は利用不可</string>
+    <string name="player_aspect_mode_slight_zoom">わずかなズーム</string>
+    <string name="player_aspect_mode_cinema_zoom">シネマズーム</string>
+
+    <!-- Plugin errors -->
+    <string name="plugin_error_invalid_url">有効なURLを入力してください</string>
+    <string name="plugin_error_add_repo">リポジトリの追加に失敗しました: %1$s</string>
+    <string name="plugin_error_refresh">更新に失敗しました: %1$s</string>
+    <string name="plugin_error_test">テストに失敗しました: %1$s</string>
+    <string name="plugin_test_no_results">結果が見つかりません</string>
+    <string name="plugin_test_found_streams">%1$d個のストリームが見つかりました</string>
+    <string name="plugin_version">バージョン %1$s</string>
+
+    <!-- Profile -->
+    <string name="profile_edit_header">プロフィールを編集</string>
+    <string name="profile_pin_save_error">PINを保存できませんでした。再試行してください。</string>
+    <string name="profile_pin_locked">プロフィールがロックされています。%1$d秒後に再試行してください。</string>
+    <string name="profile_pin_invalid">無効なPINです。再試行してください。</string>
+    <string name="profile_pin_verify_error">PINを確認できませんでした。再試行してください。</string>
+    <string name="profile_pin_incorrect">現在のPINが正しくありません。</string>
+
+    <!-- Ratings -->
+    <string name="ratings_episode_label">E%1$d</string>
+    <string name="ratings_season_label">S%1$d</string>
+
+    <!-- Search -->
+    <string name="search_recent_title">最近の検索</string>
+    <string name="search_recent_clear">履歴を消去</string>
+    <string name="search_error_no_catalogs">インストール済みのアドオンに検索可能なカタログが見つかりません</string>
+    <string name="search_no_results_title">結果なし</string>
+    <string name="search_no_results_subtitle">別のキーワードで検索してみてください</string>
+
+    <!-- Stream -->
+    <string name="stream_episode_label">S%1$d E%2$d</string>
+
+    <!-- Subtitle -->
+    <string name="sub_mode_overlay_canvas_sub">Canvasレンダリングを使用したHDRサポート。UIスレッドをブロックする場合があります。</string>
+    <string name="subtitle_built_in">内蔵</string>
+    <string name="subtitle_style_weight">太さ</string>
+
+    <!-- Sync -->
+    <string name="sync_claim_linking">リンク中…</string>
+    <string name="sync_generate_generating">生成中…</string>
+    <string name="sync_generate_code_btn">コードを生成</string>
+
+    <!-- TMDB -->
+    <string name="tmdb_release_dates_title">公開日</string>
+    <string name="tmdb_release_dates_subtitle">TMDBの公開日および放送日</string>
+
+    <!-- Trakt errors -->
+    <string name="trakt_error_code_expired">デバイスコードの有効期限が切れました。最初からやり直してください。</string>
+    <string name="trakt_error_code_used">デバイスコードはすでに使用されています。最初からやり直してください。</string>
+    <string name="trakt_error_denied">Traktでの認証が拒否されました。</string>
+
+    <!-- Web interface -->
+    <string name="web_manage_addons_title">アドオンを管理</string>
+    <string name="web_manage_addons_subtitle">アドオンとホームカタログを管理</string>
+    <string name="web_add_addon_url">URLでアドオンを追加</string>
+    <string name="web_placeholder_url">https://example.com/manifest.json</string>
+    <string name="web_btn_add">追加</string>
+    <string name="web_installed_addons">インストール済みアドオン</string>
+    <string name="web_no_addons">インストール済みアドオンなし</string>
+    <string name="web_home_catalogs">ホームカタログ</string>
+    <string name="web_no_catalogs">利用可能なホームカタログなし</string>
+    <string name="web_btn_save">変更を保存</string>
+    <string name="web_connection_lost">TVへの接続が失われました</string>
+    <string name="web_btn_remove">削除</string>
+    <string name="web_badge_new">新規</string>
+    <string name="web_badge_disabled">無効</string>
+    <string name="web_btn_enable">有効にする</string>
+    <string name="web_btn_disable">無効にする</string>
+    <string name="web_error_addon_exists">このアドオンはすでにリストにあります</string>
+    <string name="web_status_waiting_tv">TVを待機中</string>
+    <string name="web_status_msg_waiting_tv">変更を適用するにはTVで確認してください。</string>
+    <string name="web_status_changes_applied">変更が適用されました</string>
+    <string name="web_status_msg_addon_updated">アドオン設定がTVで更新されました。</string>
+    <string name="web_status_msg_repo_updated">リポジトリ設定がTVで更新されました。</string>
+    <string name="web_status_changes_rejected">変更が拒否されました</string>
+    <string name="web_status_msg_changes_rejected">変更がTVで拒否されました。リストが元に戻されました。</string>
+    <string name="web_status_error">問題が発生しました</string>
+    <string name="web_error_failed_save">保存に失敗しました。TVへの接続を確認してください。</string>
+    <string name="web_btn_dismiss">閉じる</string>
+    <string name="web_status_timeout">タイムアウト</string>
+    <string name="web_status_msg_timeout">TVからの応答がありません。もう一度試してください。</string>
+    <string name="web_status_msg_connection_lost">TVサーバーに接続できなくなりました。変更が適用された可能性があります。</string>
+    <string name="web_manage_repos_title">リポジトリを管理</string>
+    <string name="web_manage_repos_subtitle">リポジトリを管理</string>
+    <string name="web_add_repo_url">URLでリポジトリを追加</string>
+    <string name="web_installed">インストール済み</string>
+    <string name="web_no_repos">インストール済みリポジトリなし</string>
+    <string name="web_error_repo_exists">このリポジトリはすでにリストにあります</string>
+
 </resources>

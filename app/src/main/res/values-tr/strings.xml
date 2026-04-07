@@ -1219,4 +1219,172 @@
     <string name="update_ignore">Atla</string>
     <string name="watchlist_added">İzleme listesine eklendi</string>
     <string name="watchlist_removed">İzleme listesinden kaldırıldı</string>
+
+    <!-- Account -->
+    <string name="account_signin_create_title">Giriş Yap / Hesap Oluştur</string>
+    <string name="account_signin_create_desc">Hesabınıza giriş yapmak veya oluşturmak için e-posta ve şifre kullanın.</string>
+    <string name="account_generate_sync_desc">Bu cihazda bir kod oluşturun, diğer cihazlar bağlanabilsin.</string>
+    <string name="account_enter_sync_desc">Eşitleme kodu kullanarak bu cihazı başka bir cihaza bağlayın.</string>
+    <string name="account_signed_in_as">Giriş yapıldı:</string>
+    <string name="account_generate_sync_signed_in_desc">Diğer cihazların bu hesapla eşitlenmesi için bir kod oluşturun.</string>
+    <string name="account_unknown_device">Bilinmeyen Cihaz</string>
+    <string name="account_error_signin_required">Önce bir hesapla giriş yapın.</string>
+
+    <!-- Hardware Decoding MPV -->
+    <string name="audio_mpv_hwdec_title">Donanım Kod Çözme (Yalnızca MPV)</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">libmpv\'nin donanım dekoderlerini nasıl kullanacağını seçin.</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">Eski (doğrudan -&gt; kopyala)</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">Önceki varsayılan davranış: önce doğrudan donanım deneyin, sonra kopyalayın.</string>
+    <string name="audio_mpv_hwdec_auto_safe">Otomatik (auto-safe)</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">Bazı donanım dekoderler başarısız olduğunda geri dönüşümlü, daha güvenli otomatik mod.</string>
+    <string name="audio_mpv_hwdec_hardware_copy">Donanım (kopyala) (mediacodec-copy)</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">Yazılım belleğine kopyalama ile donanım kod çözme kullanır.</string>
+    <string name="audio_mpv_hwdec_hardware_direct">Donanım (doğrudan) (mediacodec)</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">Doğrudan donanım kod çözme kullanır. Uyumlu cihazlarda en hızlı yol.</string>
+    <string name="audio_mpv_hwdec_disabled">Devre dışı (no)</string>
+    <string name="audio_mpv_hwdec_disabled_desc">Donanım kod çözmeyi devre dışı bırakır ve yalnızca yazılım kod çözme kullanır.</string>
+
+    <!-- Player engine -->
+    <string name="cd_switch_player_engine">Oynatıcı motorunu değiştir</string>
+    <string name="playback_internal_player_engine">Dahili Motor</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_exoplayer_desc">Mevcut Nuvio özellikleriyle en iyi uyumluluk.</string>
+    <string name="playback_engine_mvplayer">Libmpv (Beta)</string>
+    <string name="playback_engine_mvplayer_desc">Nuvio OSD kontrolleriyle libmpv kullanır. Deneysel.</string>
+    <string name="playback_auto_switch_internal_player_on_error">Hata durumunda motoru otomatik değiştir</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">Akış başlatma başarısız olursa ExoPlayer ve libmpv arasında otomatik geçiş yapın.</string>
+    <string name="playback_show_loading_status">Yükleme durumunu göster</string>
+    <string name="playback_show_loading_status_sub">Oynatıcı başlatılırken adım adım ilerlemeyi göster.</string>
+    <string name="player_engine_switching_title">Oynatıcı Motoru Değiştiriliyor</string>
+    <string name="player_engine_switching_message">Başlatma başarısız. %1$s\'e geçiliyor…</string>
+    <string name="player_engine_switching_manual_message">%1$s\'e geçiliyor...</string>
+    <string name="player_error_no_stream_url">Akış URL\'si sağlanmadı</string>
+    <string name="player_loading_preparing">Akış hazırlanıyor…</string>
+    <string name="player_loading_detecting_format">Akış formatı algılanıyor…</string>
+    <string name="player_loading_subtitles">Altyazılar getiriliyor…</string>
+    <string name="player_loading_subtitles_from">%1$d eklentiden altyazılar getiriliyor…</string>
+    <string name="player_loading_subtitles_progress">Altyazılar getiriliyor… (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">Altyazılar: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">Oynatıcı oluşturuluyor…</string>
+    <string name="player_loading_starting">Akış başlatılıyor…</string>
+    <string name="player_loading_buffering">Tamponlanıyor…</string>
+
+    <!-- Autoplay timeout -->
+    <string name="autoplay_timeout_title">Akış Seçimi Zaman Aşımı</string>
+    <string name="autoplay_timeout_sub">Seçmeden önce eklentilerin bekleme süresi.</string>
+    <string name="autoplay_timeout_instant">Anında</string>
+    <string name="autoplay_timeout_unlimited">Sınırsız</string>
+
+    <!-- Profile PIN errors -->
+    <string name="profile_edit_header">Profili Düzenle</string>
+    <string name="profile_pin_save_error">PIN kaydedilemedi. Tekrar deneyin.</string>
+    <string name="profile_pin_locked">Profil kilitli. %1$d saniye içinde tekrar deneyin.</string>
+    <string name="profile_pin_invalid">Geçersiz PIN. Tekrar deneyin.</string>
+    <string name="profile_pin_verify_error">PIN doğrulanamadı. Tekrar deneyin.</string>
+    <string name="profile_pin_incorrect">Mevcut PIN yanlış.</string>
+
+    <!-- Debug -->
+    <string name="debug_generate_description">Debug oluşturuldu %1$s öğe #%2$d</string>
+    <string name="debug_generate_result_failed">Başarısız: %1$s</string>
+    <string name="debug_signin_success">Başarıyla giriş yapıldı</string>
+
+    <!-- Discover -->
+    <string name="discover_disabled_title">Keşfet devre dışı</string>
+    <string name="discover_disabled_subtitle">Ayarlarda Arama Keşfet\'i etkinleştirin</string>
+
+    <!-- Error -->
+    <string name="error_network_required">Bu özelliği kullanmak için Wi-Fi veya Ethernet\'e bağlanın</string>
+    <string name="error_server_ports_unavailable">Sunucu başlatılamadı. Tüm portlar kullanımda.</string>
+
+    <!-- Home errors -->
+    <string name="home_error_no_addons">Eklenti yüklü değil</string>
+    <string name="home_error_no_catalog_addons">Katalog eklentisi yüklü değil</string>
+
+    <!-- Library -->
+    <string name="library_list_create_dialog_title">Liste Oluştur</string>
+    <string name="library_list_edit_dialog_title">Listeyi Düzenle</string>
+    <string name="library_sync_btn">Eşitle</string>
+    <string name="library_syncing_btn">Eşitleniyor…</string>
+
+    <!-- Plugin errors -->
+    <string name="plugin_error_invalid_url">Lütfen geçerli bir URL girin</string>
+    <string name="plugin_error_add_repo">Depo eklenemedi: %1$s</string>
+    <string name="plugin_error_refresh">Yenileme başarısız: %1$s</string>
+    <string name="plugin_error_test">Test başarısız: %1$s</string>
+    <string name="plugin_test_no_results">Sonuç bulunamadı</string>
+    <string name="plugin_test_found_streams">%1$d akış bulundu</string>
+    <string name="plugin_version">Sürüm %1$s</string>
+
+    <!-- Ratings -->
+    <string name="ratings_episode_label">B%1$d</string>
+    <string name="ratings_season_label">S%1$d</string>
+
+    <!-- Search -->
+    <string name="search_recent_title">Son aramalar</string>
+    <string name="search_recent_clear">Geçmişi temizle</string>
+    <string name="search_error_no_catalogs">Yüklü eklentilerde aranabilir katalog bulunamadı</string>
+    <string name="search_no_results_title">Sonuç Yok</string>
+    <string name="search_no_results_subtitle">Farklı anahtar kelimelerle aramayı deneyin</string>
+
+    <!-- Stream -->
+    <string name="stream_episode_label">S%1$d B%2$d</string>
+
+    <!-- Subtitle -->
+    <string name="sub_mode_overlay_canvas_sub">Canvas görüntüleme ile HDR desteği. UI iş parçacığını engelleyebilir.</string>
+    <string name="subtitle_built_in">Dahili</string>
+    <string name="subtitle_style_weight">Kalınlık</string>
+
+    <!-- Sync -->
+    <string name="sync_claim_linking">Bağlanıyor…</string>
+    <string name="sync_generate_generating">Oluşturuluyor…</string>
+    <string name="sync_generate_code_btn">Kod Oluştur</string>
+
+    <!-- TMDB -->
+    <string name="tmdb_release_dates_title">Yayın Tarihleri</string>
+    <string name="tmdb_release_dates_subtitle">TMDB\'den yayın ve yayın tarihleri</string>
+
+    <!-- Trakt errors -->
+    <string name="trakt_error_code_expired">Cihaz kodu süresi doldu. Tekrar başlayın.</string>
+    <string name="trakt_error_code_used">Cihaz kodu zaten kullanıldı. Tekrar başlayın.</string>
+    <string name="trakt_error_denied">Trakt\'ta yetkilendirme reddedildi.</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_play">Oynat</string>
+    <string name="cd_pause">Duraklat</string>
+    <string name="cd_subtitles">Altyazılar</string>
+    <string name="cd_audio_tracks">Ses parçaları</string>
+    <string name="cd_sources">Kaynaklar</string>
+    <string name="cd_episodes">Bölümler</string>
+    <string name="cd_playback_speed">Oynatma hızı</string>
+    <string name="cd_aspect_ratio">En-boy oranı</string>
+    <string name="cd_open_external_player">Harici oynatıcıda aç</string>
+    <string name="cd_stream_info">Akış bilgisi</string>
+    <string name="cd_more_actions">Diğer işlemler</string>
+    <string name="cd_close_more_actions">Diğer işlemleri kapat</string>
+    <string name="cd_back">Geri</string>
+    <string name="cd_next_episode_thumbnail">Sonraki bölüm küçük resmi</string>
+    <string name="cd_current">Geçerli</string>
+    <string name="cd_loading_backdrop">Arka plan yükleniyor</string>
+    <string name="cd_loading_logo">Logo yükleniyor</string>
+    <string name="cd_move_up">Yukarı taşı</string>
+    <string name="cd_move_down">Aşağı taşı</string>
+    <string name="cd_qr_code">QR Kodu</string>
+    <string name="cd_add">Ekle</string>
+    <string name="cd_refresh">Yenile</string>
+    <string name="cd_remove">Kaldır</string>
+    <string name="cd_test">Test</string>
+    <string name="cd_unlink">Bağlantıyı kaldır</string>
+    <string name="cd_nuvio_logo">NuvioTV</string>
+    <string name="cd_trakt_logo">Trakt Logosu</string>
+    <string name="cd_trakt_qr">Trakt etkinleştirme QR</string>
+    <string name="cd_imdb">IMDb</string>
+    <string name="cd_open_discover">Keşfet\'i aç</string>
+    <string name="cd_voice_search">Sesli arama</string>
+    <string name="cd_donation_qr">Bağış QR kodu</string>
+    <string name="cd_contributor_qr">Katkıda bulunan destek QR kodu</string>
+    <string name="cd_expand">%1$s genişlet</string>
+    <string name="cd_collapse">%1$s daralt</string>
+    <string name="cd_qr_login">QR giriş kodu</string>
+    <string name="cd_nuvio">Nuvio</string>
+
 </resources>

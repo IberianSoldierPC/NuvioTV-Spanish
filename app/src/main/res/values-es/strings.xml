@@ -14,7 +14,7 @@
 
     <!-- ErrorState -->
     <string name="action_retry">Reintentar</string>
-    <string name="error_state_generic_issue">Something went wrong.</string>
+    <string name="error_state_generic_issue">Algo salió mal.</string>
     <string name="error_state_possible_fix">Posible solución: %1$s</string>
     <string name="error_state_fix_retry_soon">reintentar en un momento.</string>
     <string name="error_state_issue_no_metadata_any_addon">Este ID no pudo cargar detalles porque ninguno de los complementos instalados devolvió metadatos.</string>
@@ -1046,4 +1046,367 @@
     <string name="update_downloading_ellipsis">Descargando…</string>
     <string name="watchlist_added">Añadido a lista de deseos</string>
     <string name="watchlist_removed">Eliminado de lista de deseos</string>
+    <string name="web_installed_addons">Addons instalados</string>
+    <string name="web_no_addons">Addons no instalados</string>
+    <string name="web_btn_remove">Quitar</string>
+    <string name="network_latency_label">Latencia</string>
+    <string name="network_download_label">Descarga</string>
+    <string name="network_powered_by_fast">Con tecnología de fast.com</string>
+    <string name="network_connection_wifi">Wi-Fi</string>
+
+    <!-- WebConfigServers -->
+    <string name="web_manage_addons_title">Administrar complementos</string>
+    <string name="web_manage_addons_subtitle">Gestiona complementos y catálogos de inicio</string>
+    <string name="web_add_addon_url">Añadir complemento por URL</string>
+    <string name="web_placeholder_url">https://ejemplo.com/manifest.json</string>
+    <string name="web_btn_add">Añadir</string>
+    <string name="web_home_catalogs">Catálogos de inicio</string>
+    <string name="web_no_catalogs">No hay catálogos de inicio disponibles</string>
+    <string name="web_btn_save">Guardar cambios</string>
+    <string name="web_connection_lost">Conexión con la TV perdida</string>
+    <string name="web_badge_new">Nuevo</string>
+    <string name="web_badge_disabled">Deshabilitado</string>
+    <string name="web_btn_enable">Habilitar</string>
+    <string name="web_btn_disable">Deshabilitar</string>
+    <string name="web_error_addon_exists">Este complemento ya está en la lista</string>
+    <string name="web_status_waiting_tv">Esperando a la TV</string>
+    <string name="web_status_msg_waiting_tv">Por favor, confirma los cambios en tu TV para aplicarlos.</string>
+    <string name="web_status_changes_applied">Cambios aplicados</string>
+    <string name="web_status_msg_addon_updated">Tu configuración de complementos se ha actualizado en la TV.</string>
+    <string name="web_status_msg_repo_updated">Tu configuración de repositorios se ha actualizado en la TV.</string>
+    <string name="web_status_changes_rejected">Cambios rechazados</string>
+    <string name="web_status_msg_changes_rejected">Los cambios fueron rechazados en la TV. Tu lista ha sido revertida.</string>
+    <string name="web_status_error">Algo salió mal</string>
+    <string name="web_error_failed_save">Error al guardar. Comprueba tu conexión con la TV.</string>
+    <string name="web_btn_dismiss">Descartar</string>
+    <string name="web_status_timeout">Tiempo de espera agotado</string>
+    <string name="web_status_msg_timeout">Sin respuesta de la TV. Por favor, inténtalo de nuevo.</string>
+    <string name="web_status_msg_connection_lost">El servidor de TV ya no es accesible. Es posible que los cambios hayan sido aplicados.</string>
+    <string name="web_manage_repos_title">Administrar repositorios</string>
+    <string name="web_manage_repos_subtitle">Gestiona tus repositorios</string>
+    <string name="web_add_repo_url">Añadir repositorio por URL</string>
+    <string name="web_installed">Instalado</string>
+    <string name="web_no_repos">No hay repositorios instalados</string>
+    <string name="web_error_repo_exists">Este repositorio ya está en la lista</string>
+
+    <!-- MetaDetailsScreen - Comments & More Like This -->
+    <string name="detail_more_like_this_powered_by_tmdb">Con tecnología de TMDB</string>
+    <string name="detail_more_like_this_powered_by_trakt">Con tecnología de Trakt</string>
+    <string name="detail_comments_title">Comentarios</string>
+    <string name="detail_comments_subtitle">Reseñas de Trakt</string>
+    <string name="detail_comments_empty">No hay reseñas de Trakt disponibles aún.</string>
+    <string name="detail_comments_error">No se pudieron cargar las reseñas de Trakt ahora mismo.</string>
+    <string name="detail_comments_spoiler_hidden">Reseña con spoiler. Pulsa OK para revelarla.</string>
+    <string name="detail_comments_reveal_spoiler">Revelar spoiler</string>
+    <string name="detail_comments_reveal_spoiler_hint">Pulsa OK para revelar el spoiler.</string>
+    <string name="detail_comments_back_hint">Pulsa atrás para cerrar</string>
+    <string name="detail_comments_badge_review">Reseña</string>
+    <string name="detail_comments_badge_spoiler">Spoiler</string>
+    <string name="detail_comments_badge_rating">%1$d/10</string>
+    <string name="detail_comments_likes">%1$d me gusta</string>
+
+    <!-- TMDB entity -->
+    <string name="tmdb_entity_kind_company">Compañía productora</string>
+    <string name="tmdb_entity_kind_network">Cadena</string>
+    <string name="tmdb_entity_rail_popular">Popular</string>
+    <string name="tmdb_entity_rail_top_rated">Mejor valorado</string>
+    <string name="tmdb_entity_rail_recent">Reciente</string>
+    <string name="tmdb_entity_empty_title">No se encontraron títulos</string>
+    <string name="tmdb_entity_empty_subtitle">TMDB no tiene actualmente títulos navegables para esta selección.</string>
+
+    <!-- Series status -->
+    <string name="episodes_unavailable">No disponible</string>
+    <string name="series_status_ended">Finalizada</string>
+    <string name="series_status_continuing">En emisión</string>
+    <string name="series_status_current">Actual</string>
+    <string name="series_status_cancelled">Cancelada</string>
+    <string name="series_status_released">Lanzada</string>
+    <string name="series_status_planned">Planificada</string>
+    <string name="series_status_rumored">Rumoreada</string>
+    <string name="series_status_in_production">En producción</string>
+    <string name="series_status_post_production">Posproducción</string>
+
+    <!-- AboutScreen -->
+    <string name="about_supporters_contributors">Apoyadores y colaboradores</string>
+    <string name="about_supporters_contributors_subtitle">Reconocimiento y créditos del proyecto</string>
+
+    <!-- SettingsScreen - Network & Advanced -->
+    <string name="settings_network">Velocidad de red</string>
+    <string name="settings_network_subtitle">Diagnósticos de latencia y descarga</string>
+    <string name="settings_advanced">Avanzado</string>
+    <string name="settings_advanced_subtitle">Ejecutar diagnósticos de velocidad de red</string>
+    <string name="network_speed_test_run">Ejecutar prueba de velocidad</string>
+    <string name="network_speed_test_running">Ejecutando prueba de velocidad</string>
+    <string name="network_speed_test_subtitle">Medir velocidad de descarga y latencia</string>
+    <string name="network_testing_latency">Midiendo latencia</string>
+    <string name="network_testing_download">Midiendo velocidad de descarga</string>
+    <string name="network_results_title">Resultados</string>
+    <string name="network_error_prefix">Error: %1$s</string>
+    <string name="network_connection_ethernet">Ethernet</string>
+    <string name="network_connection_offline">Sin conexión</string>
+    <string name="settings_animeskip_subtitle">Marcas de tiempo para saltar intro/outro de anime</string>
+
+    <!-- PlaybackSettingsSections - Player engine -->
+    <string name="playback_internal_player_engine">Motor del reproductor interno</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_mvplayer">Libmpv (Beta)</string>
+    <string name="playback_auto_switch_internal_player_on_error">Cambiar motor automáticamente al fallar el inicio</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">Si el inicio del flujo falla, cambia automáticamente entre ExoPlayer y libmpv.</string>
+    <string name="playback_resolution_matching">Coincidencia de resolución</string>
+    <string name="playback_resolution_matching_sub">Permitir cambios de modo de pantalla para coincidir con la resolución del vídeo.</string>
+    <string name="playback_engine_exoplayer_desc">Mejor compatibilidad con las funciones actuales de Nuvio.</string>
+    <string name="playback_engine_mvplayer_desc">Usa libmpv con controles OSD de Nuvio. Experimental.</string>
+
+    <!-- PlaybackAudioSettings - MPV hardware decoding -->
+    <string name="audio_mpv_hwdec_title">Decodificación por hardware (solo MPV)</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">Selecciona cómo debe usar libmpv los decodificadores de hardware.</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">Legado (directo → copia)</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">Comportamiento predeterminado anterior: intentar hardware directo primero, luego copia.</string>
+    <string name="audio_mpv_hwdec_auto_safe">Automático (auto-seguro)</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">Modo automático más seguro con reserva cuando algunos decodificadores de hardware fallan.</string>
+    <string name="audio_mpv_hwdec_hardware_copy">Hardware (copia) (mediacodec-copy)</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">Usa decodificación por hardware con copia a memoria de software.</string>
+    <string name="audio_mpv_hwdec_hardware_direct">Hardware (directo) (mediacodec)</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">Usa decodificación por hardware directa. La vía más rápida en dispositivos compatibles.</string>
+    <string name="audio_mpv_hwdec_disabled">Deshabilitado (no)</string>
+    <string name="audio_mpv_hwdec_disabled_desc">Deshabilita la decodificación por hardware y usa solo decodificación por software.</string>
+
+    <!-- PlaybackSubtitleSettings - Startup mode -->
+    <string name="sub_startup_mode_title">Carga de subtítulos del complemento</string>
+    <string name="sub_startup_mode_fast">Inicio rápido</string>
+    <string name="sub_startup_mode_preferred">Idiomas preferidos</string>
+    <string name="sub_startup_mode_all">Todos los subtítulos del complemento</string>
+    <string name="sub_startup_mode_fast_desc">Inicia la reproducción inmediatamente. Seleccionar subtítulos del complemento puede recargar el reproductor una vez.</string>
+    <string name="sub_startup_mode_preferred_desc">Precarga subtítulos del complemento antes de la reproducción y adjunta pistas de idioma preferido/secundario.</string>
+    <string name="sub_startup_mode_all_desc">Precarga y adjunta todos los subtítulos del complemento antes de la reproducción. Inicio más lento.</string>
+    <string name="sub_mode_overlay_canvas_sub">Soporte HDR con renderizado Canvas. Puede bloquear el hilo de la interfaz.</string>
+
+    <!-- PlaybackAutoPlaySettings -->
+    <string name="autoplay_prefer_binge_group">Preferir grupo de maratón (siguiente episodio)</string>
+    <string name="autoplay_prefer_binge_group_sub">Intentar el mismo perfil de fuente primero (mismo complemento/grupo de calidad) antes de las reglas normales de reproducción automática.</string>
+    <string name="autoplay_timeout_title">Tiempo de espera para selección de fuente</string>
+    <string name="autoplay_timeout_sub">Tiempo de espera para complementos antes de seleccionar.</string>
+    <string name="autoplay_timeout_instant">Instantáneo</string>
+    <string name="autoplay_timeout_unlimited">Ilimitado</string>
+
+    <!-- LayoutSettingsScreen -->
+    <string name="layout_fullscreen_hero_backdrop">Telón de fondo del héroe a pantalla completa</string>
+    <string name="layout_fullscreen_hero_backdrop_sub">Expande el telón de fondo del héroe para llenar toda la pantalla.</string>
+    <string name="layout_blur_cw_next_up">Desenfocar no vistos en Continuar viendo</string>
+    <string name="layout_blur_cw_next_up_sub">Desenfoca miniaturas del siguiente episodio en Continuar viendo para evitar spoilers.</string>
+    <string name="layout_show_full_release_date">Mostrar fecha de estreno completa</string>
+    <string name="layout_show_full_release_date_sub">Para películas, mostrar la fecha de estreno completa en lugar de solo el año.</string>
+
+    <!-- TmdbSettingsScreen -->
+    <string name="tmdb_modern_home_title">Habilitar en inicio moderno</string>
+    <string name="tmdb_modern_home_subtitle">Aplicar también el enriquecimiento de TMDB al héroe del inicio moderno y tarjetas enfocadas</string>
+    <string name="tmdb_enrich_continue_watching_title">Enriquecer Continuar viendo</string>
+    <string name="tmdb_enrich_continue_watching_subtitle">Aplicar enriquecimiento de TMDB a elementos de Continuar viendo</string>
+    <string name="tmdb_release_dates_title">Fechas de lanzamiento</string>
+    <string name="tmdb_release_dates_subtitle">Fechas de estreno y emisión de TMDB</string>
+    <string name="tmdb_collections_title">Colecciones</string>
+    <string name="tmdb_collections_subtitle">Colecciones de películas de TMDB en orden de lanzamiento</string>
+
+    <!-- TraktScreen - Watch progress -->
+    <string name="trakt_watch_progress_title">Progreso de visualización</string>
+    <string name="trakt_watch_progress_subtitle">Elige qué fuente de progreso controla la función de reanudar y continuar viendo</string>
+    <string name="trakt_watch_progress_dialog_title">Progreso de visualización</string>
+    <string name="trakt_watch_progress_dialog_subtitle">Elige si reanudar y continuar viendo deben usar Trakt o Nuvio Sync mientras el scrobbling de Trakt permanece activo.</string>
+    <string name="trakt_watch_progress_source_trakt">Trakt</string>
+    <string name="trakt_watch_progress_source_nuvio">Nuvio Sync</string>
+    <string name="trakt_setting_on">Activado</string>
+    <string name="trakt_setting_off">Desactivado</string>
+    <string name="trakt_watch_progress_trakt_selected">Fuente de progreso de visualización establecida en Trakt</string>
+    <string name="trakt_watch_progress_nuvio_selected">Fuente de progreso de visualización establecida en Nuvio Sync</string>
+    <string name="trakt_unaired_now_shown">Los episodios sin emitir ahora se muestran</string>
+    <string name="trakt_unaired_now_hidden">Los episodios sin emitir ahora están ocultos</string>
+
+    <!-- DebugSettingsScreen - Library -->
+    <string name="debug_section_library">Biblioteca</string>
+    <string name="debug_generate_library_title">Generar elementos de biblioteca</string>
+    <string name="debug_generate_library_subtitle">Añadir películas/series aleatorias a la biblioteca para pruebas</string>
+    <string name="debug_generate_library_placeholder">Número de elementos</string>
+    <string name="debug_generate_library_button">Generar</string>
+    <string name="debug_generating_library">Generando\u2026</string>
+
+    <!-- ProfileSettingsContent -->
+    <string name="profile_edit_header">Editar perfil</string>
+
+    <!-- PlayerScreen - Loading states -->
+    <string name="player_loading_preparing">Preparando flujo\u2026</string>
+    <string name="player_loading_detecting_format">Detectando formato del flujo\u2026</string>
+    <string name="player_loading_subtitles">Obteniendo subtítulos\u2026</string>
+    <string name="player_loading_subtitles_from">Obteniendo subtítulos de %1$d complementos\u2026</string>
+    <string name="player_loading_subtitles_progress">Obteniendo subtítulos\u2026 (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">Subtítulos: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">Construyendo reproductor\u2026</string>
+    <string name="player_loading_starting">Iniciando flujo\u2026</string>
+    <string name="player_loading_buffering">Almacenando en búfer\u2026</string>
+    <string name="player_engine_switching_title">Cambiando motor del reproductor</string>
+    <string name="player_engine_switching_message">Inicio fallido. Cambiando a %1$s\u2026</string>
+    <string name="player_engine_switching_manual_message">Cambiando a %1$s...</string>
+    <string name="playback_show_loading_status">Mostrar estado de carga</string>
+    <string name="playback_show_loading_status_sub">Mostrar progreso paso a paso mientras el reproductor se inicializa.</string>
+
+    <!-- Player - Aspect ratio -->
+    <string name="player_aspect_tunneling_unavailable">No disponible durante la reproducción tunelizada</string>
+    <string name="player_aspect_mode_slight_zoom">Zoom ligero</string>
+    <string name="player_aspect_mode_cinema_zoom">Zoom de cine</string>
+
+    <!-- SubtitleDialog -->
+    <string name="subtitle_built_in">Integrados</string>
+    <string name="subtitle_style_weight">Grosor</string>
+
+    <!-- SearchScreen -->
+    <string name="search_recent_title">Búsquedas recientes</string>
+    <string name="search_recent_clear">Limpiar historial</string>
+    <string name="search_no_results_title">Sin resultados</string>
+    <string name="search_no_results_subtitle">Intenta buscar con palabras clave diferentes</string>
+    <string name="discover_disabled_title">El descubrimiento está deshabilitado</string>
+    <string name="discover_disabled_subtitle">Habilita la función Descubrir en búsqueda en la configuración</string>
+
+    <!-- LibraryScreen - Filters & Genres -->
+    <string name="library_filter_genre">Género</string>
+    <string name="library_filter_year">Año</string>
+    <string name="genre_action">Acción</string>
+    <string name="genre_adventure">Aventura</string>
+    <string name="genre_animation">Animación</string>
+    <string name="genre_comedy">Comedia</string>
+    <string name="genre_crime">Crimen</string>
+    <string name="genre_documentary">Documental</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_family">Familia</string>
+    <string name="genre_fantasy">Fantasía</string>
+    <string name="genre_history">Historia</string>
+    <string name="genre_horror">Terror</string>
+    <string name="genre_music">Música</string>
+    <string name="genre_mystery">Misterio</string>
+    <string name="genre_romance">Romance</string>
+    <string name="genre_science_fiction">Ciencia ficción</string>
+    <string name="genre_tv_movie">Película de TV</string>
+    <string name="genre_thriller">Suspense</string>
+    <string name="genre_war">Bélica</string>
+    <string name="genre_western">Wéstern</string>
+    <string name="genre_action_adventure">Acción y aventura</string>
+    <string name="genre_kids">Infantil</string>
+    <string name="genre_news">Noticias</string>
+    <string name="genre_reality">Reality</string>
+    <string name="genre_sci_fi_fantasy">Ciencia ficción y fantasía</string>
+    <string name="genre_soap">Telenovela</string>
+    <string name="genre_talk">Programa de entrevistas</string>
+    <string name="genre_war_politics">Guerra y política</string>
+    <string name="library_source_nuvio">NUVIO</string>
+    <string name="library_source_trakt">TRAKT</string>
+    <string name="library_syncing_library">Sincronizando biblioteca\u2026</string>
+    <string name="library_list_create_dialog_title">Crear lista</string>
+    <string name="library_list_edit_dialog_title">Editar lista</string>
+    <string name="library_sync_btn">Sincronizar</string>
+    <string name="library_syncing_btn">Sincronizando\u2026</string>
+
+    <!-- Profile PIN errors -->
+    <string name="profile_pin_save_error">No se pudo guardar el PIN. Inténtalo de nuevo.</string>
+    <string name="profile_pin_locked">Perfil bloqueado. Inténtalo de nuevo en %1$ds.</string>
+    <string name="profile_pin_invalid">PIN incorrecto. Inténtalo de nuevo.</string>
+    <string name="profile_pin_verify_error">No se pudo verificar el PIN. Inténtalo de nuevo.</string>
+    <string name="profile_pin_incorrect">El PIN actual es incorrecto.</string>
+
+    <!-- Account Screen -->
+    <string name="account_signin_create_title">Iniciar sesión / Crear cuenta</string>
+    <string name="account_signin_create_desc">Usa correo electrónico y contraseña para crear o acceder a tu cuenta.</string>
+    <string name="account_generate_sync_desc">Crea un código en este dispositivo para que otros puedan vincularse.</string>
+    <string name="account_enter_sync_desc">Vincula este dispositivo a otro usando un código de sincronización.</string>
+    <string name="account_signed_in_as">Conectado como</string>
+    <string name="account_generate_sync_signed_in_desc">Crea un código para que otros dispositivos puedan sincronizarse con esta cuenta.</string>
+    <string name="account_unknown_device">Dispositivo desconocido</string>
+
+    <!-- Sync screens -->
+    <string name="sync_claim_linking">Vinculando\u2026</string>
+    <string name="sync_generate_generating">Generando\u2026</string>
+    <string name="sync_generate_code_btn">Generar código</string>
+
+    <!-- Error messages (shared) -->
+    <string name="error_network_required">Conéctate a Wi-Fi o Ethernet para usar esta función</string>
+    <string name="error_server_ports_unavailable">No se pudo iniciar el servidor. Todos los puertos están en uso.</string>
+
+    <!-- Plugin errors -->
+    <string name="plugin_error_invalid_url">Por favor, introduce una URL válida</string>
+    <string name="plugin_error_add_repo">Error al añadir repositorio: %1$s</string>
+    <string name="plugin_error_refresh">Error al actualizar: %1$s</string>
+    <string name="plugin_error_test">Prueba fallida: %1$s</string>
+    <string name="plugin_test_no_results">No se encontraron resultados</string>
+    <string name="plugin_test_found_streams">Se encontraron %1$d fuentes</string>
+
+    <!-- Trakt errors -->
+    <string name="trakt_error_code_expired">Código de dispositivo expirado. Empieza de nuevo.</string>
+    <string name="trakt_error_code_used">Código de dispositivo ya usado. Empieza de nuevo.</string>
+    <string name="trakt_error_denied">Autorización denegada en Trakt.</string>
+
+    <!-- Account errors -->
+    <string name="account_error_signin_required">Primero inicia sesión con una cuenta.</string>
+
+    <!-- Search errors -->
+    <string name="search_error_no_catalogs">No se encontraron catálogos de búsqueda en los complementos instalados</string>
+
+    <!-- Home errors -->
+    <string name="home_error_no_addons">No hay complementos instalados</string>
+    <string name="home_error_no_catalog_addons">No hay complementos de catálogo instalados</string>
+
+    <!-- Player errors -->
+    <string name="player_error_no_stream_url">No se proporcionó URL del flujo</string>
+
+    <!-- Plugin screen -->
+    <string name="plugin_version">Versión %1$s</string>
+
+    <!-- Stream screen -->
+    <string name="stream_episode_label">T%1$d E%2$d</string>
+
+    <!-- Episode ratings -->
+    <string name="ratings_season_label">T%1$d</string>
+    <string name="ratings_episode_label">E%1$d</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_play">Reproducir</string>
+    <string name="cd_pause">Pausar</string>
+    <string name="cd_subtitles">Subtítulos</string>
+    <string name="cd_audio_tracks">Pistas de audio</string>
+    <string name="cd_sources">Fuentes</string>
+    <string name="cd_switch_player_engine">Cambiar motor del reproductor</string>
+    <string name="cd_episodes">Episodios</string>
+    <string name="cd_playback_speed">Velocidad de reproducción</string>
+    <string name="cd_aspect_ratio">Relación de aspecto</string>
+    <string name="cd_open_external_player">Abrir en reproductor externo</string>
+    <string name="cd_stream_info">Información del flujo</string>
+    <string name="cd_more_actions">Más acciones</string>
+    <string name="cd_close_more_actions">Cerrar más acciones</string>
+    <string name="cd_back">Atrás</string>
+    <string name="cd_next_episode_thumbnail">Miniatura del siguiente episodio</string>
+    <string name="cd_current">Actual</string>
+    <string name="cd_loading_backdrop">Cargando telón de fondo</string>
+    <string name="cd_loading_logo">Cargando logotipo</string>
+    <string name="cd_move_up">Mover arriba</string>
+    <string name="cd_move_down">Mover abajo</string>
+    <string name="cd_qr_code">Código QR</string>
+    <string name="cd_add">Añadir</string>
+    <string name="cd_refresh">Actualizar</string>
+    <string name="cd_remove">Eliminar</string>
+    <string name="cd_test">Probar</string>
+    <string name="cd_unlink">Desvincular</string>
+    <string name="cd_nuvio_logo">NuvioTV</string>
+    <string name="cd_trakt_logo">Logotipo de Trakt</string>
+    <string name="cd_trakt_qr">QR de activación de Trakt</string>
+    <string name="cd_imdb">IMDb</string>
+    <string name="cd_open_discover">Abrir descubrir</string>
+    <string name="cd_voice_search">Búsqueda por voz</string>
+    <string name="cd_donation_qr">Código QR de donación</string>
+    <string name="cd_contributor_qr">Código QR de apoyo al colaborador</string>
+    <string name="cd_expand">Expandir %1$s</string>
+    <string name="cd_collapse">Contraer %1$s</string>
+    <string name="cd_qr_login">Código QR de inicio de sesión</string>
+    <string name="cd_nuvio">Nuvio</string>
+
+    <!-- Debug -->
+    <string name="debug_signin_success">Sesión iniciada con éxito</string>
+    <string name="debug_generate_description">Elemento #%2$d de %1$s generado en depuración</string>
+    <string name="debug_generate_result_failed">Fallido: %1$s</string>
+
 </resources>

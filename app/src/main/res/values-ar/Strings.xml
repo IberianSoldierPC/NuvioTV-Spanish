@@ -1182,4 +1182,205 @@
     <string name="update_ignore">تجاهل</string>
     <string name="watchlist_added">تمت الإضافة لقائمة المشاهدة</string>
     <string name="watchlist_removed">تمت الإزالة من قائمة المشاهدة</string>
+
+    <!-- Account -->
+    <string name="account_signin_create_title">تسجيل الدخول / إنشاء حساب</string>
+    <string name="account_signin_create_desc">استخدم البريد الإلكتروني وكلمة المرور لإنشاء حساب أو تسجيل الدخول.</string>
+    <string name="account_generate_sync_desc">أنشئ رمزاً على هذا الجهاز حتى تتمكن الأجهزة الأخرى من الاتصال.</string>
+    <string name="account_enter_sync_desc">اربط هذا الجهاز بجهاز آخر باستخدام رمز المزامنة.</string>
+    <string name="account_signed_in_as">مسجل الدخول باسم</string>
+    <string name="account_generate_sync_signed_in_desc">أنشئ رمزاً حتى تتمكن الأجهزة الأخرى من المزامنة مع هذا الحساب.</string>
+    <string name="account_unknown_device">جهاز غير معروف</string>
+    <string name="account_error_signin_required">سجّل الدخول بحساب أولاً.</string>
+
+    <!-- Hardware Decoding MPV -->
+    <string name="audio_mpv_hwdec_title">فك الترميز بالمعالج (MPV فقط)</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">اختر كيف يجب أن يستخدم libmpv برامج فك الترميز المادية.</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">قديم (مباشر -&gt; نسخ)</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">السلوك الافتراضي السابق: جرب المعالج المباشر أولاً، ثم النسخ.</string>
+    <string name="audio_mpv_hwdec_auto_safe">تلقائي (auto-safe)</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">وضع تلقائي أكثر أماناً مع احتياطي عند فشل بعض برامج فك الترميز.</string>
+    <string name="audio_mpv_hwdec_hardware_copy">معالج (نسخ) (mediacodec-copy)</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">يستخدم فك الترميز المادي مع النسخ إلى ذاكرة البرنامج.</string>
+    <string name="audio_mpv_hwdec_hardware_direct">معالج (مباشر) (mediacodec)</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">يستخدم فك الترميز المادي المباشر. أسرع مسار على الأجهزة المتوافقة.</string>
+    <string name="audio_mpv_hwdec_disabled">معطل (no)</string>
+    <string name="audio_mpv_hwdec_disabled_desc">يعطل فك الترميز المادي ويستخدم فك الترميز البرمجي فقط.</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_play">تشغيل</string>
+    <string name="cd_pause">إيقاف مؤقت</string>
+    <string name="cd_subtitles">ترجمات</string>
+    <string name="cd_audio_tracks">المسارات الصوتية</string>
+    <string name="cd_sources">المصادر</string>
+    <string name="cd_switch_player_engine">تبديل محرك المشغل</string>
+    <string name="cd_episodes">الحلقات</string>
+    <string name="cd_playback_speed">سرعة التشغيل</string>
+    <string name="cd_aspect_ratio">نسبة العرض إلى الارتفاع</string>
+    <string name="cd_open_external_player">فتح في مشغل خارجي</string>
+    <string name="cd_stream_info">معلومات البث</string>
+    <string name="cd_more_actions">المزيد من الإجراءات</string>
+    <string name="cd_close_more_actions">إغلاق المزيد من الإجراءات</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_next_episode_thumbnail">صورة الحلقة التالية</string>
+    <string name="cd_current">الحالي</string>
+    <string name="cd_loading_backdrop">جارٍ تحميل الخلفية</string>
+    <string name="cd_loading_logo">جارٍ تحميل الشعار</string>
+    <string name="cd_move_up">تحريك لأعلى</string>
+    <string name="cd_move_down">تحريك لأسفل</string>
+    <string name="cd_qr_code">رمز QR</string>
+    <string name="cd_add">إضافة</string>
+    <string name="cd_refresh">تحديث</string>
+    <string name="cd_remove">إزالة</string>
+    <string name="cd_test">اختبار</string>
+    <string name="cd_unlink">إلغاء الربط</string>
+    <string name="cd_nuvio_logo">NuvioTV</string>
+    <string name="cd_trakt_logo">شعار Trakt</string>
+    <string name="cd_trakt_qr">رمز QR لتفعيل Trakt</string>
+    <string name="cd_imdb">IMDb</string>
+    <string name="cd_open_discover">فتح الاستكشاف</string>
+    <string name="cd_voice_search">البحث الصوتي</string>
+    <string name="cd_donation_qr">رمز QR للتبرع</string>
+    <string name="cd_contributor_qr">رمز QR دعم المساهم</string>
+    <string name="cd_expand">توسيع %1$s</string>
+    <string name="cd_collapse">طي %1$s</string>
+    <string name="cd_qr_login">رمز QR لتسجيل الدخول</string>
+    <string name="cd_nuvio">Nuvio</string>
+
+    <!-- Debug -->
+    <string name="debug_signin_success">تم تسجيل الدخول بنجاح</string>
+    <string name="debug_generate_description">عنصر debug %1$s رقم #%2$d</string>
+    <string name="debug_generate_result_failed">فشل: %1$s</string>
+
+    <!-- Discover -->
+    <string name="discover_disabled_title">الاستكشاف معطل</string>
+    <string name="discover_disabled_subtitle">فعّل استكشاف البحث في الإعدادات</string>
+
+    <!-- Errors -->
+    <string name="error_network_required">اتصل بشبكة Wi-Fi أو Ethernet لاستخدام هذه الميزة</string>
+    <string name="error_server_ports_unavailable">تعذر تشغيل الخادم. جميع المنافذ مشغولة.</string>
+    <string name="home_error_no_addons">لا توجد إضافات مثبتة</string>
+    <string name="home_error_no_catalog_addons">لا توجد إضافات كتالوج مثبتة</string>
+
+    <!-- Library -->
+    <string name="library_list_create_dialog_title">إنشاء قائمة</string>
+    <string name="library_list_edit_dialog_title">تعديل القائمة</string>
+    <string name="library_sync_btn">مزامنة</string>
+    <string name="library_syncing_btn">جارٍ المزامنة…</string>
+
+    <!-- Player engine -->
+    <string name="playback_internal_player_engine">المحرك الداخلي</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_exoplayer_desc">أفضل توافق مع ميزات Nuvio الحالية.</string>
+    <string name="playback_engine_mvplayer">Libmpv (تجريبي)</string>
+    <string name="playback_engine_mvplayer_desc">يستخدم libmpv مع أدوات تحكم OSD لـ Nuvio. تجريبي.</string>
+    <string name="playback_auto_switch_internal_player_on_error">التبديل التلقائي للمحرك عند الخطأ</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">إذا فشل بدء تشغيل البث، يتم التبديل تلقائياً بين ExoPlayer وlibmpv.</string>
+    <string name="playback_show_loading_status">إظهار حالة التحميل</string>
+    <string name="playback_show_loading_status_sub">عرض التقدم خطوة بخطوة أثناء تهيئة المشغل.</string>
+    <string name="player_engine_switching_title">تبديل محرك المشغل</string>
+    <string name="player_engine_switching_message">فشل بدء التشغيل. التبديل إلى %1$s…</string>
+    <string name="player_engine_switching_manual_message">التبديل إلى %1$s...</string>
+    <string name="player_error_no_stream_url">لم يتم توفير رابط البث</string>
+    <string name="player_loading_preparing">جارٍ تحضير البث…</string>
+    <string name="player_loading_detecting_format">جارٍ اكتشاف تنسيق البث…</string>
+    <string name="player_loading_subtitles">جارٍ جلب الترجمات…</string>
+    <string name="player_loading_subtitles_from">جارٍ جلب الترجمات من %1$d إضافات…</string>
+    <string name="player_loading_subtitles_progress">جارٍ جلب الترجمات… (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">الترجمات: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">جارٍ إنشاء المشغل…</string>
+    <string name="player_loading_starting">جارٍ بدء البث…</string>
+    <string name="player_loading_buffering">جارٍ التحميل المؤقت…</string>
+    <string name="player_aspect_tunneling_unavailable">غير متاح أثناء التشغيل عبر النفق</string>
+    <string name="player_aspect_mode_slight_zoom">تكبير خفيف</string>
+    <string name="player_aspect_mode_cinema_zoom">تكبير سينمائي</string>
+
+    <!-- Plugin errors -->
+    <string name="plugin_error_invalid_url">الرجاء إدخال رابط صحيح</string>
+    <string name="plugin_error_add_repo">فشل إضافة المستودع: %1$s</string>
+    <string name="plugin_error_refresh">فشل التحديث: %1$s</string>
+    <string name="plugin_error_test">فشل الاختبار: %1$s</string>
+    <string name="plugin_test_no_results">لم يتم العثور على نتائج</string>
+    <string name="plugin_test_found_streams">تم العثور على %1$d بث</string>
+    <string name="plugin_version">الإصدار %1$s</string>
+
+    <!-- Profile -->
+    <string name="profile_edit_header">تعديل الملف الشخصي</string>
+    <string name="profile_pin_save_error">تعذر حفظ رمز PIN. حاول مرة أخرى.</string>
+    <string name="profile_pin_locked">الملف الشخصي مقفل. حاول مرة أخرى خلال %1$d ثانية.</string>
+    <string name="profile_pin_invalid">رمز PIN غير صحيح. حاول مرة أخرى.</string>
+    <string name="profile_pin_verify_error">تعذر التحقق من رمز PIN. حاول مرة أخرى.</string>
+    <string name="profile_pin_incorrect">رمز PIN الحالي غير صحيح.</string>
+
+    <!-- Ratings -->
+    <string name="ratings_episode_label">ح%1$d</string>
+    <string name="ratings_season_label">م%1$d</string>
+
+    <!-- Search -->
+    <string name="search_recent_title">عمليات البحث الأخيرة</string>
+    <string name="search_recent_clear">مسح السجل</string>
+    <string name="search_error_no_catalogs">لم يتم العثور على كتالوجات قابلة للبحث في الإضافات المثبتة</string>
+    <string name="search_no_results_title">لا توجد نتائج</string>
+    <string name="search_no_results_subtitle">حاول البحث بكلمات مفتاحية مختلفة</string>
+
+    <!-- Stream -->
+    <string name="stream_episode_label">م%1$d ح%2$d</string>
+
+    <!-- Subtitle -->
+    <string name="sub_mode_overlay_canvas_sub">دعم HDR مع تصيير Canvas. قد يحجب خيط واجهة المستخدم.</string>
+    <string name="subtitle_built_in">مدمج</string>
+    <string name="subtitle_style_weight">الوزن</string>
+
+    <!-- Sync -->
+    <string name="sync_claim_linking">جارٍ الربط…</string>
+    <string name="sync_generate_generating">جارٍ الإنشاء…</string>
+    <string name="sync_generate_code_btn">إنشاء رمز</string>
+
+    <!-- TMDB -->
+    <string name="tmdb_release_dates_title">تواريخ الإصدار</string>
+    <string name="tmdb_release_dates_subtitle">تواريخ الإصدار والبث من TMDB</string>
+
+    <!-- Trakt errors -->
+    <string name="trakt_error_code_expired">انتهت صلاحية رمز الجهاز. ابدأ من جديد.</string>
+    <string name="trakt_error_code_used">تم استخدام رمز الجهاز بالفعل. ابدأ من جديد.</string>
+    <string name="trakt_error_denied">تم رفض الترخيص على Trakt.</string>
+
+    <!-- Web interface -->
+    <string name="web_manage_addons_title">إدارة الإضافات</string>
+    <string name="web_manage_addons_subtitle">إدارة الإضافات وكتالوجات الصفحة الرئيسية</string>
+    <string name="web_add_addon_url">إضافة إضافة عبر رابط URL</string>
+    <string name="web_placeholder_url">https://example.com/manifest.json</string>
+    <string name="web_btn_add">إضافة</string>
+    <string name="web_installed_addons">الإضافات المثبتة</string>
+    <string name="web_no_addons">لا توجد إضافات مثبتة</string>
+    <string name="web_home_catalogs">كتالوجات الصفحة الرئيسية</string>
+    <string name="web_no_catalogs">لا توجد كتالوجات متاحة</string>
+    <string name="web_btn_save">حفظ التغييرات</string>
+    <string name="web_connection_lost">فُقد الاتصال بالتلفاز</string>
+    <string name="web_btn_remove">إزالة</string>
+    <string name="web_badge_new">جديد</string>
+    <string name="web_badge_disabled">معطل</string>
+    <string name="web_btn_enable">تفعيل</string>
+    <string name="web_btn_disable">تعطيل</string>
+    <string name="web_error_addon_exists">هذه الإضافة موجودة بالفعل في القائمة</string>
+    <string name="web_status_waiting_tv">في انتظار التلفاز</string>
+    <string name="web_status_msg_waiting_tv">يرجى تأكيد التغييرات على تلفازك لتطبيقها.</string>
+    <string name="web_status_changes_applied">تم تطبيق التغييرات</string>
+    <string name="web_status_msg_addon_updated">تم تحديث تكوين الإضافة على التلفاز.</string>
+    <string name="web_status_msg_repo_updated">تم تحديث تكوين المستودع على التلفاز.</string>
+    <string name="web_status_changes_rejected">تم رفض التغييرات</string>
+    <string name="web_status_msg_changes_rejected">تم رفض التغييرات على التلفاز. تم استعادة قائمتك.</string>
+    <string name="web_status_error">حدث خطأ ما</string>
+    <string name="web_error_failed_save">فشل الحفظ. تحقق من اتصالك بالتلفاز.</string>
+    <string name="web_btn_dismiss">رفض</string>
+    <string name="web_status_timeout">انتهت مهلة الانتظار</string>
+    <string name="web_status_msg_timeout">لا استجابة من التلفاز. حاول مرة أخرى.</string>
+    <string name="web_status_msg_connection_lost">خادم التلفاز لم يعد قابلاً للوصول. ربما تم تطبيق التغييرات.</string>
+    <string name="web_manage_repos_title">إدارة المستودعات</string>
+    <string name="web_manage_repos_subtitle">إدارة مستودعاتك</string>
+    <string name="web_add_repo_url">إضافة مستودع عبر رابط URL</string>
+    <string name="web_installed">مثبت</string>
+    <string name="web_no_repos">لا توجد مستودعات مثبتة</string>
+    <string name="web_error_repo_exists">هذا المستودع موجود بالفعل في القائمة</string>
+
 </resources>

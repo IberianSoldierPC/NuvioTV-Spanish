@@ -1148,4 +1148,241 @@
     <string name="update_ignore">Ignorieren</string>
     <string name="watchlist_added">Zur Beobachtungsliste hinzugefügt</string>
     <string name="watchlist_removed">Aus Beobachtungsliste entfernt</string>
+
+    <!-- Genres -->
+    <string name="genre_action">Action</string>
+    <string name="genre_adventure">Abenteuer</string>
+    <string name="genre_animation">Animation</string>
+    <string name="genre_comedy">Komödie</string>
+    <string name="genre_crime">Krimi</string>
+    <string name="genre_documentary">Dokumentarfilm</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_family">Familie</string>
+    <string name="genre_fantasy">Fantasy</string>
+    <string name="genre_history">Geschichte</string>
+    <string name="genre_horror">Horror</string>
+    <string name="genre_music">Musik</string>
+    <string name="genre_mystery">Mystery</string>
+    <string name="genre_romance">Romantik</string>
+    <string name="genre_science_fiction">Science-Fiction</string>
+    <string name="genre_tv_movie">TV-Film</string>
+    <string name="genre_thriller">Thriller</string>
+    <string name="genre_war">Krieg</string>
+    <string name="genre_western">Western</string>
+    <string name="genre_action_adventure">Action &amp; Abenteuer</string>
+    <string name="genre_kids">Kinder</string>
+    <string name="genre_news">Nachrichten</string>
+    <string name="genre_reality">Reality</string>
+    <string name="genre_sci_fi_fantasy">Sci-Fi &amp; Fantasy</string>
+    <string name="genre_soap">Seifenoper</string>
+    <string name="genre_talk">Talk</string>
+    <string name="genre_war_politics">Krieg &amp; Politik</string>
+
+    <!-- Library filters -->
+    <string name="library_filter_genre">Genre</string>
+    <string name="library_filter_year">Jahr</string>
+    <string name="library_source_nuvio">NUVIO</string>
+    <string name="library_source_trakt">TRAKT</string>
+    <string name="library_syncing_library">Bibliothek wird synchronisiert…</string>
+
+    <!-- Account -->
+    <string name="account_signin_create_title">Anmelden / Konto erstellen</string>
+    <string name="account_signin_create_desc">E-Mail und Passwort verwenden, um ein Konto zu erstellen oder sich anzumelden.</string>
+    <string name="account_generate_sync_desc">Erstelle einen Code auf diesem Gerät, damit andere Geräte sich verbinden können.</string>
+    <string name="account_enter_sync_desc">Verbinde dieses Gerät über einen Sync-Code mit einem anderen Gerät.</string>
+    <string name="account_signed_in_as">Angemeldet als</string>
+    <string name="account_generate_sync_signed_in_desc">Erstelle einen Code, damit andere Geräte mit diesem Konto synchronisieren können.</string>
+    <string name="account_unknown_device">Unbekanntes Gerät</string>
+    <string name="account_error_signin_required">Melde dich zuerst mit einem Konto an.</string>
+
+    <!-- Hardware Decoding MPV -->
+    <string name="audio_mpv_hwdec_title">Hardware-Dekodierung (nur MPV)</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">Wähle, wie libmpv Hardware-Dekoder verwenden soll.</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">Legacy (direkt -&gt; Kopie)</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">Vorheriges Standardverhalten: erst direktes Hardware versuchen, dann kopieren.</string>
+    <string name="audio_mpv_hwdec_auto_safe">Auto (auto-safe)</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">Sichererer automatischer Modus mit Fallback, wenn einige Hardware-Dekoder versagen.</string>
+    <string name="audio_mpv_hwdec_hardware_copy">Hardware (Kopie) (mediacodec-copy)</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">Verwendet Hardware-Dekodierung mit Kopie in den Software-Speicher.</string>
+    <string name="audio_mpv_hwdec_hardware_direct">Hardware (direkt) (mediacodec)</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">Verwendet direkte Hardware-Dekodierung. Schnellster Pfad auf kompatiblen Geräten.</string>
+    <string name="audio_mpv_hwdec_disabled">Deaktiviert (no)</string>
+    <string name="audio_mpv_hwdec_disabled_desc">Deaktiviert die Hardware-Dekodierung und verwendet nur Software-Dekodierung.</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_play">Abspielen</string>
+    <string name="cd_pause">Pausieren</string>
+    <string name="cd_subtitles">Untertitel</string>
+    <string name="cd_audio_tracks">Audiospuren</string>
+    <string name="cd_sources">Quellen</string>
+    <string name="cd_switch_player_engine">Player-Engine wechseln</string>
+    <string name="cd_episodes">Episoden</string>
+    <string name="cd_playback_speed">Wiedergabegeschwindigkeit</string>
+    <string name="cd_aspect_ratio">Seitenverhältnis</string>
+    <string name="cd_open_external_player">Im externen Player öffnen</string>
+    <string name="cd_stream_info">Stream-Info</string>
+    <string name="cd_more_actions">Weitere Aktionen</string>
+    <string name="cd_close_more_actions">Weitere Aktionen schließen</string>
+    <string name="cd_back">Zurück</string>
+    <string name="cd_next_episode_thumbnail">Nächste Episode Vorschaubild</string>
+    <string name="cd_current">Aktuell</string>
+    <string name="cd_loading_backdrop">Hintergrundbild wird geladen</string>
+    <string name="cd_loading_logo">Logo wird geladen</string>
+    <string name="cd_move_up">Nach oben verschieben</string>
+    <string name="cd_move_down">Nach unten verschieben</string>
+    <string name="cd_qr_code">QR-Code</string>
+    <string name="cd_add">Hinzufügen</string>
+    <string name="cd_refresh">Aktualisieren</string>
+    <string name="cd_remove">Entfernen</string>
+    <string name="cd_test">Testen</string>
+    <string name="cd_unlink">Verknüpfung aufheben</string>
+    <string name="cd_nuvio_logo">NuvioTV</string>
+    <string name="cd_trakt_logo">Trakt Logo</string>
+    <string name="cd_trakt_qr">Trakt Aktivierungs-QR</string>
+    <string name="cd_imdb">IMDb</string>
+    <string name="cd_open_discover">Entdecken öffnen</string>
+    <string name="cd_voice_search">Sprachsuche</string>
+    <string name="cd_donation_qr">Spenden-QR-Code</string>
+    <string name="cd_contributor_qr">Mitwirkenden-QR-Code</string>
+    <string name="cd_expand">%1$s erweitern</string>
+    <string name="cd_collapse">%1$s minimieren</string>
+    <string name="cd_qr_login">QR-Login-Code</string>
+    <string name="cd_nuvio">Nuvio</string>
+
+    <!-- Debug -->
+    <string name="debug_signin_success">Erfolgreich angemeldet</string>
+    <string name="debug_generate_description">Debug-generiertes %1$s Element #%2$d</string>
+    <string name="debug_generate_result_failed">Fehlgeschlagen: %1$s</string>
+
+    <!-- Discover -->
+    <string name="discover_disabled_title">Entdecken deaktiviert</string>
+    <string name="discover_disabled_subtitle">Suche Entdecken in den Einstellungen aktivieren</string>
+
+    <!-- Errors -->
+    <string name="error_network_required">Verbinde dich mit WLAN oder Ethernet, um diese Funktion zu nutzen</string>
+    <string name="error_server_ports_unavailable">Server konnte nicht gestartet werden. Alle Ports belegt.</string>
+    <string name="home_error_no_addons">Keine Erweiterungen installiert</string>
+    <string name="home_error_no_catalog_addons">Keine Katalog-Erweiterungen installiert</string>
+
+    <!-- Library -->
+    <string name="library_list_create_dialog_title">Liste erstellen</string>
+    <string name="library_list_edit_dialog_title">Liste bearbeiten</string>
+    <string name="library_sync_btn">Synchronisieren</string>
+    <string name="library_syncing_btn">Wird synchronisiert…</string>
+
+    <!-- Player engine -->
+    <string name="playback_internal_player_engine">Interner Motor</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_exoplayer_desc">Beste Kompatibilität mit aktuellen Nuvio-Funktionen.</string>
+    <string name="playback_engine_mvplayer">Libmpv (Beta)</string>
+    <string name="playback_engine_mvplayer_desc">Verwendet libmpv mit Nuvio OSD-Steuerungen. Experimentell.</string>
+    <string name="playback_auto_switch_internal_player_on_error">Motor bei Fehler automatisch wechseln</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">Bei einem Stream-Startfehler automatisch zwischen ExoPlayer und libmpv wechseln.</string>
+    <string name="playback_show_loading_status">Ladestatus anzeigen</string>
+    <string name="playback_show_loading_status_sub">Schritt-für-Schritt-Fortschritt während der Player-Initialisierung anzeigen.</string>
+    <string name="player_engine_switching_title">Player-Engine wird gewechselt</string>
+    <string name="player_engine_switching_message">Start fehlgeschlagen. Wechsel zu %1$s…</string>
+    <string name="player_engine_switching_manual_message">Wechsel zu %1$s...</string>
+    <string name="player_error_no_stream_url">Keine Stream-URL angegeben</string>
+    <string name="player_loading_preparing">Stream wird vorbereitet…</string>
+    <string name="player_loading_detecting_format">Stream-Format wird erkannt…</string>
+    <string name="player_loading_subtitles">Untertitel werden abgerufen…</string>
+    <string name="player_loading_subtitles_from">Untertitel von %1$d Erweiterungen werden abgerufen…</string>
+    <string name="player_loading_subtitles_progress">Untertitel werden abgerufen… (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">Untertitel: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">Player wird erstellt…</string>
+    <string name="player_loading_starting">Stream wird gestartet…</string>
+    <string name="player_loading_buffering">Puffern…</string>
+    <string name="player_aspect_tunneling_unavailable">Nicht verfügbar bei Tunnel-Wiedergabe</string>
+    <string name="player_aspect_mode_slight_zoom">Leichter Zoom</string>
+    <string name="player_aspect_mode_cinema_zoom">Kino-Zoom</string>
+
+    <!-- Plugin errors -->
+    <string name="plugin_error_invalid_url">Bitte gib eine gültige URL ein</string>
+    <string name="plugin_error_add_repo">Repository konnte nicht hinzugefügt werden: %1$s</string>
+    <string name="plugin_error_refresh">Aktualisierung fehlgeschlagen: %1$s</string>
+    <string name="plugin_error_test">Test fehlgeschlagen: %1$s</string>
+    <string name="plugin_test_no_results">Keine Ergebnisse gefunden</string>
+    <string name="plugin_test_found_streams">%1$d Streams gefunden</string>
+    <string name="plugin_version">Version %1$s</string>
+
+    <!-- Profile -->
+    <string name="profile_edit_header">Profil bearbeiten</string>
+    <string name="profile_pin_save_error">PIN konnte nicht gespeichert werden. Versuche es erneut.</string>
+    <string name="profile_pin_locked">Profil gesperrt. Versuche es in %1$d Sekunden erneut.</string>
+    <string name="profile_pin_invalid">Ungültige PIN. Versuche es erneut.</string>
+    <string name="profile_pin_verify_error">PIN konnte nicht überprüft werden. Versuche es erneut.</string>
+    <string name="profile_pin_incorrect">Aktuelle PIN ist falsch.</string>
+
+    <!-- Ratings -->
+    <string name="ratings_episode_label">E%1$d</string>
+    <string name="ratings_season_label">S%1$d</string>
+
+    <!-- Search -->
+    <string name="search_recent_title">Letzte Suchen</string>
+    <string name="search_recent_clear">Verlauf löschen</string>
+    <string name="search_error_no_catalogs">Keine durchsuchbaren Kataloge in installierten Erweiterungen gefunden</string>
+    <string name="search_no_results_title">Keine Ergebnisse</string>
+    <string name="search_no_results_subtitle">Versuche die Suche mit anderen Schlüsselwörtern</string>
+
+    <!-- Stream -->
+    <string name="stream_episode_label">S%1$d E%2$d</string>
+
+    <!-- Subtitle -->
+    <string name="sub_mode_overlay_canvas_sub">HDR-Unterstützung mit Canvas-Rendering. Kann den UI-Thread blockieren.</string>
+    <string name="subtitle_built_in">Eingebettet</string>
+    <string name="subtitle_style_weight">Stärke</string>
+
+    <!-- Sync -->
+    <string name="sync_claim_linking">Verknüpfen…</string>
+    <string name="sync_generate_generating">Wird generiert…</string>
+    <string name="sync_generate_code_btn">Code generieren</string>
+
+    <!-- TMDB -->
+    <string name="tmdb_release_dates_title">Erscheinungsdaten</string>
+    <string name="tmdb_release_dates_subtitle">Erscheinungs- und Ausstrahlungsdaten von TMDB</string>
+
+    <!-- Trakt errors -->
+    <string name="trakt_error_code_expired">Gerätecode abgelaufen. Erneut versuchen.</string>
+    <string name="trakt_error_code_used">Gerätecode bereits verwendet. Erneut versuchen.</string>
+    <string name="trakt_error_denied">Autorisierung auf Trakt abgelehnt.</string>
+
+    <!-- Web interface -->
+    <string name="web_manage_addons_title">Erweiterungen verwalten</string>
+    <string name="web_manage_addons_subtitle">Erweiterungen und Startkataloge verwalten</string>
+    <string name="web_add_addon_url">Erweiterung per URL hinzufügen</string>
+    <string name="web_placeholder_url">https://beispiel.com/manifest.json</string>
+    <string name="web_btn_add">Hinzufügen</string>
+    <string name="web_installed_addons">Installierte Erweiterungen</string>
+    <string name="web_no_addons">Keine Erweiterungen installiert</string>
+    <string name="web_home_catalogs">Startkataloge</string>
+    <string name="web_no_catalogs">Keine Startkataloge verfügbar</string>
+    <string name="web_btn_save">Änderungen speichern</string>
+    <string name="web_connection_lost">Verbindung zum TV verloren</string>
+    <string name="web_btn_remove">Entfernen</string>
+    <string name="web_badge_new">Neu</string>
+    <string name="web_badge_disabled">Deaktiviert</string>
+    <string name="web_btn_enable">Aktivieren</string>
+    <string name="web_btn_disable">Deaktivieren</string>
+    <string name="web_error_addon_exists">Diese Erweiterung ist bereits in der Liste</string>
+    <string name="web_status_waiting_tv">Warte auf TV</string>
+    <string name="web_status_msg_waiting_tv">Bitte bestätige die Änderungen auf deinem TV, um sie anzuwenden.</string>
+    <string name="web_status_changes_applied">Änderungen angewendet</string>
+    <string name="web_status_msg_addon_updated">Die Erweiterungskonfiguration wurde auf dem TV aktualisiert.</string>
+    <string name="web_status_msg_repo_updated">Die Repository-Konfiguration wurde auf dem TV aktualisiert.</string>
+    <string name="web_status_changes_rejected">Änderungen abgelehnt</string>
+    <string name="web_status_msg_changes_rejected">Die Änderungen wurden auf dem TV abgelehnt. Deine Liste wurde wiederhergestellt.</string>
+    <string name="web_status_error">Etwas ist schief gelaufen</string>
+    <string name="web_error_failed_save">Speichern fehlgeschlagen. Überprüfe deine Verbindung zum TV.</string>
+    <string name="web_btn_dismiss">Schließen</string>
+    <string name="web_status_timeout">Zeitüberschreitung</string>
+    <string name="web_status_msg_timeout">Keine Antwort vom TV. Bitte versuche es erneut.</string>
+    <string name="web_status_msg_connection_lost">Der TV-Server ist nicht mehr erreichbar. Die Änderungen wurden möglicherweise angewendet.</string>
+    <string name="web_manage_repos_title">Repositories verwalten</string>
+    <string name="web_manage_repos_subtitle">Deine Repositories verwalten</string>
+    <string name="web_add_repo_url">Repository per URL hinzufügen</string>
+    <string name="web_installed">Installiert</string>
+    <string name="web_no_repos">Keine Repositories installiert</string>
+    <string name="web_error_repo_exists">Dieses Repository ist bereits in der Liste</string>
+
 </resources>

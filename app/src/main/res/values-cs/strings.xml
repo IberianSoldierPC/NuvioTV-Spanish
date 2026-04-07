@@ -1119,4 +1119,205 @@
     <string name="update_ignore">Ignorovat</string>
     <string name="watchlist_added">Přidáno do watchlistu</string>
     <string name="watchlist_removed">Odstraněno z watchlistu</string>
+
+    <!-- Account -->
+    <string name="account_signin_create_title">Přihlásit se / Vytvořit účet</string>
+    <string name="account_signin_create_desc">Použijte e-mail a heslo k vytvoření nebo přihlášení do svého účtu.</string>
+    <string name="account_generate_sync_desc">Vytvořte kód na tomto zařízení, aby se ostatní zařízení mohla připojit.</string>
+    <string name="account_enter_sync_desc">Propojte toto zařízení s jiným zařízením pomocí synchronizačního kódu.</string>
+    <string name="account_signed_in_as">Přihlášen jako</string>
+    <string name="account_generate_sync_signed_in_desc">Vytvořte kód, aby ostatní zařízení mohla synchronizovat s tímto účtem.</string>
+    <string name="account_unknown_device">Neznámé zařízení</string>
+    <string name="account_error_signin_required">Nejprve se přihlaste pomocí účtu.</string>
+
+    <!-- Hardware Decoding MPV -->
+    <string name="audio_mpv_hwdec_title">Hardwarové dekódování (pouze MPV)</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">Vyberte, jak má libmpv používat hardwarové dekodéry.</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">Starší (přímý -&gt; kopie)</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">Předchozí výchozí chování: nejprve zkuste přímý hardware, pak kopii.</string>
+    <string name="audio_mpv_hwdec_auto_safe">Automaticky (auto-safe)</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">Bezpečnější automatický režim s nouzovým přepnutím, když některé hardwarové dekodéry selžou.</string>
+    <string name="audio_mpv_hwdec_hardware_copy">Hardware (kopie) (mediacodec-copy)</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">Používá hardwarové dekódování s kopírováním do softwarové paměti.</string>
+    <string name="audio_mpv_hwdec_hardware_direct">Hardware (přímý) (mediacodec)</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">Používá přímé hardwarové dekódování. Nejrychlejší cesta na kompatibilních zařízeních.</string>
+    <string name="audio_mpv_hwdec_disabled">Zakázáno (no)</string>
+    <string name="audio_mpv_hwdec_disabled_desc">Zakáže hardwarové dekódování a používá pouze softwarové dekódování.</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_play">Přehrát</string>
+    <string name="cd_pause">Pozastavit</string>
+    <string name="cd_subtitles">Titulky</string>
+    <string name="cd_audio_tracks">Zvukové stopy</string>
+    <string name="cd_sources">Zdroje</string>
+    <string name="cd_switch_player_engine">Přepnout engine přehrávače</string>
+    <string name="cd_episodes">Epizody</string>
+    <string name="cd_playback_speed">Rychlost přehrávání</string>
+    <string name="cd_aspect_ratio">Poměr stran</string>
+    <string name="cd_open_external_player">Otevřít v externím přehrávači</string>
+    <string name="cd_stream_info">Informace o streamu</string>
+    <string name="cd_more_actions">Další akce</string>
+    <string name="cd_close_more_actions">Zavřít další akce</string>
+    <string name="cd_back">Zpět</string>
+    <string name="cd_next_episode_thumbnail">Náhled další epizody</string>
+    <string name="cd_current">Aktuální</string>
+    <string name="cd_loading_backdrop">Načítání pozadí</string>
+    <string name="cd_loading_logo">Načítání loga</string>
+    <string name="cd_move_up">Posunout nahoru</string>
+    <string name="cd_move_down">Posunout dolů</string>
+    <string name="cd_qr_code">QR kód</string>
+    <string name="cd_add">Přidat</string>
+    <string name="cd_refresh">Obnovit</string>
+    <string name="cd_remove">Odebrat</string>
+    <string name="cd_test">Testovat</string>
+    <string name="cd_unlink">Odpojit</string>
+    <string name="cd_nuvio_logo">NuvioTV</string>
+    <string name="cd_trakt_logo">Logo Trakt</string>
+    <string name="cd_trakt_qr">QR aktivace Trakt</string>
+    <string name="cd_imdb">IMDb</string>
+    <string name="cd_open_discover">Otevřít Objevit</string>
+    <string name="cd_voice_search">Hlasové vyhledávání</string>
+    <string name="cd_donation_qr">QR kód pro darování</string>
+    <string name="cd_contributor_qr">QR kód podpory přispěvatele</string>
+    <string name="cd_expand">Rozbalit %1$s</string>
+    <string name="cd_collapse">Sbalit %1$s</string>
+    <string name="cd_qr_login">QR kód přihlášení</string>
+    <string name="cd_nuvio">Nuvio</string>
+
+    <!-- Debug -->
+    <string name="debug_signin_success">Přihlášení bylo úspěšné</string>
+    <string name="debug_generate_description">Debug-generovaná %1$s položka #%2$d</string>
+    <string name="debug_generate_result_failed">Selhalo: %1$s</string>
+
+    <!-- Discover -->
+    <string name="discover_disabled_title">Objevit je zakázáno</string>
+    <string name="discover_disabled_subtitle">Povolte Vyhledat a objevit v nastavení</string>
+
+    <!-- Errors -->
+    <string name="error_network_required">Připojte se k Wi-Fi nebo Ethernetu, abyste mohli tuto funkci používat</string>
+    <string name="error_server_ports_unavailable">Server nelze spustit. Všechny porty jsou obsazeny.</string>
+    <string name="home_error_no_addons">Žádné doplňky nejsou nainstalovány</string>
+    <string name="home_error_no_catalog_addons">Žádné katalogové doplňky nejsou nainstalovány</string>
+
+    <!-- Library -->
+    <string name="library_list_create_dialog_title">Vytvořit seznam</string>
+    <string name="library_list_edit_dialog_title">Upravit seznam</string>
+    <string name="library_sync_btn">Synchronizovat</string>
+    <string name="library_syncing_btn">Synchronizace…</string>
+
+    <!-- Player engine -->
+    <string name="playback_internal_player_engine">Interní engine</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_exoplayer_desc">Nejlepší kompatibilita s aktuálními funkcemi Nuvio.</string>
+    <string name="playback_engine_mvplayer">Libmpv (Beta)</string>
+    <string name="playback_engine_mvplayer_desc">Používá libmpv s ovládacími prvky Nuvio OSD. Experimentální.</string>
+    <string name="playback_auto_switch_internal_player_on_error">Automaticky přepnout engine při chybě</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">Pokud se spuštění streamu nezdaří, automaticky přepínejte mezi ExoPlayer a libmpv.</string>
+    <string name="playback_show_loading_status">Zobrazit stav načítání</string>
+    <string name="playback_show_loading_status_sub">Zobrazovat postup krok za krokem při inicializaci přehrávače.</string>
+    <string name="player_engine_switching_title">Přepínání engine přehrávače</string>
+    <string name="player_engine_switching_message">Spuštění selhalo. Přepínání na %1$s…</string>
+    <string name="player_engine_switching_manual_message">Přepínání na %1$s...</string>
+    <string name="player_error_no_stream_url">Nebyla poskytnuta URL streamu</string>
+    <string name="player_loading_preparing">Příprava streamu…</string>
+    <string name="player_loading_detecting_format">Rozpoznávání formátu streamu…</string>
+    <string name="player_loading_subtitles">Načítání titulků…</string>
+    <string name="player_loading_subtitles_from">Načítání titulků z %1$d doplňků…</string>
+    <string name="player_loading_subtitles_progress">Načítání titulků… (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">Titulky: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">Vytváření přehrávače…</string>
+    <string name="player_loading_starting">Spouštění streamu…</string>
+    <string name="player_loading_buffering">Načítání do vyrovnávací paměti…</string>
+    <string name="player_aspect_tunneling_unavailable">Nedostupné při tunelovém přehrávání</string>
+    <string name="player_aspect_mode_slight_zoom">Mírné přiblížení</string>
+    <string name="player_aspect_mode_cinema_zoom">Kinematografické přiblížení</string>
+
+    <!-- Plugin errors -->
+    <string name="plugin_error_invalid_url">Zadejte prosím platnou URL</string>
+    <string name="plugin_error_add_repo">Nepodařilo se přidat repozitář: %1$s</string>
+    <string name="plugin_error_refresh">Obnovení selhalo: %1$s</string>
+    <string name="plugin_error_test">Test selhal: %1$s</string>
+    <string name="plugin_test_no_results">Nenalezeny žádné výsledky</string>
+    <string name="plugin_test_found_streams">Nalezeno %1$d streamů</string>
+    <string name="plugin_version">Verze %1$s</string>
+
+    <!-- Profile -->
+    <string name="profile_edit_header">Upravit profil</string>
+    <string name="profile_pin_save_error">PIN nelze uložit. Zkuste to znovu.</string>
+    <string name="profile_pin_locked">Profil je zamčen. Zkuste to za %1$d sekund.</string>
+    <string name="profile_pin_invalid">Neplatný PIN. Zkuste to znovu.</string>
+    <string name="profile_pin_verify_error">PIN nelze ověřit. Zkuste to znovu.</string>
+    <string name="profile_pin_incorrect">Aktuální PIN je nesprávný.</string>
+
+    <!-- Ratings -->
+    <string name="ratings_episode_label">E%1$d</string>
+    <string name="ratings_season_label">S%1$d</string>
+
+    <!-- Search -->
+    <string name="search_recent_title">Poslední hledání</string>
+    <string name="search_recent_clear">Vymazat historii</string>
+    <string name="search_error_no_catalogs">V nainstalovaných doplňcích nebyl nalezen žádný prohledávatelný katalog</string>
+    <string name="search_no_results_title">Žádné výsledky</string>
+    <string name="search_no_results_subtitle">Zkuste hledat s jinými klíčovými slovy</string>
+
+    <!-- Stream -->
+    <string name="stream_episode_label">S%1$d E%2$d</string>
+
+    <!-- Subtitle -->
+    <string name="sub_mode_overlay_canvas_sub">Podpora HDR s Canvas renderováním. Může blokovat vlákno UI.</string>
+    <string name="subtitle_built_in">Zabudované</string>
+    <string name="subtitle_style_weight">Váha</string>
+
+    <!-- Sync -->
+    <string name="sync_claim_linking">Propojování…</string>
+    <string name="sync_generate_generating">Generování…</string>
+    <string name="sync_generate_code_btn">Generovat kód</string>
+
+    <!-- TMDB -->
+    <string name="tmdb_release_dates_title">Data vydání</string>
+    <string name="tmdb_release_dates_subtitle">Data vydání a vysílání z TMDB</string>
+
+    <!-- Trakt errors -->
+    <string name="trakt_error_code_expired">Kód zařízení vypršel. Začněte znovu.</string>
+    <string name="trakt_error_code_used">Kód zařízení již byl použit. Začněte znovu.</string>
+    <string name="trakt_error_denied">Autorizace na Trakt zamítnuta.</string>
+
+    <!-- Web interface -->
+    <string name="web_manage_addons_title">Spravovat doplňky</string>
+    <string name="web_manage_addons_subtitle">Spravovat doplňky a katalogy domovské obrazovky</string>
+    <string name="web_add_addon_url">Přidat doplněk pomocí URL</string>
+    <string name="web_placeholder_url">https://priklad.com/manifest.json</string>
+    <string name="web_btn_add">Přidat</string>
+    <string name="web_installed_addons">Nainstalované doplňky</string>
+    <string name="web_no_addons">Žádné nainstalované doplňky</string>
+    <string name="web_home_catalogs">Katalogy domovské obrazovky</string>
+    <string name="web_no_catalogs">Žádné katalogy domovské obrazovky</string>
+    <string name="web_btn_save">Uložit změny</string>
+    <string name="web_connection_lost">Připojení k TV ztraceno</string>
+    <string name="web_btn_remove">Odebrat</string>
+    <string name="web_badge_new">Nový</string>
+    <string name="web_badge_disabled">Zakázáno</string>
+    <string name="web_btn_enable">Povolit</string>
+    <string name="web_btn_disable">Zakázat</string>
+    <string name="web_error_addon_exists">Tento doplněk je již v seznamu</string>
+    <string name="web_status_waiting_tv">Čekání na TV</string>
+    <string name="web_status_msg_waiting_tv">Potvrďte prosím změny na vaší TV, aby se použily.</string>
+    <string name="web_status_changes_applied">Změny použity</string>
+    <string name="web_status_msg_addon_updated">Konfigurace vašeho doplňku byla aktualizována na TV.</string>
+    <string name="web_status_msg_repo_updated">Konfigurace vašeho repozitáře byla aktualizována na TV.</string>
+    <string name="web_status_changes_rejected">Změny odmítnuty</string>
+    <string name="web_status_msg_changes_rejected">Změny byly odmítnuty na TV. Váš seznam byl obnoven.</string>
+    <string name="web_status_error">Něco se pokazilo</string>
+    <string name="web_error_failed_save">Uložení selhalo. Zkontrolujte připojení k TV.</string>
+    <string name="web_btn_dismiss">Zavřít</string>
+    <string name="web_status_timeout">Vypršení časového limitu</string>
+    <string name="web_status_msg_timeout">TV neodpovídá. Zkuste to prosím znovu.</string>
+    <string name="web_status_msg_connection_lost">TV server je již nedostupný. Změny mohly být použity.</string>
+    <string name="web_manage_repos_title">Spravovat repozitáře</string>
+    <string name="web_manage_repos_subtitle">Spravovat vaše repozitáře</string>
+    <string name="web_add_repo_url">Přidat repozitář pomocí URL</string>
+    <string name="web_installed">Nainstalováno</string>
+    <string name="web_no_repos">Žádné nainstalované repozitáře</string>
+    <string name="web_error_repo_exists">Tento repozitář je již v seznamu</string>
+
 </resources>

@@ -1182,4 +1182,205 @@
     <string name="update_ignore">Αγνόηση</string>
     <string name="watchlist_added">Προστέθηκε στη watchlist</string>
     <string name="watchlist_removed">Αφαιρέθηκε από τη watchlist</string>
+
+    <!-- Account -->
+    <string name="account_signin_create_title">Σύνδεση / Δημιουργία λογαριασμού</string>
+    <string name="account_signin_create_desc">Χρησιμοποιήστε email και κωδικό για να δημιουργήσετε ή να συνδεθείτε στον λογαριασμό σας.</string>
+    <string name="account_generate_sync_desc">Δημιουργήστε κωδικό σε αυτή τη συσκευή ώστε άλλες συσκευές να μπορούν να συνδεθούν.</string>
+    <string name="account_enter_sync_desc">Συνδέστε αυτή τη συσκευή με άλλη χρησιμοποιώντας κωδικό συγχρονισμού.</string>
+    <string name="account_signed_in_as">Συνδεδεμένος ως</string>
+    <string name="account_generate_sync_signed_in_desc">Δημιουργήστε κωδικό ώστε άλλες συσκευές να μπορούν να συγχρονιστούν με αυτόν τον λογαριασμό.</string>
+    <string name="account_unknown_device">Άγνωστη συσκευή</string>
+    <string name="account_error_signin_required">Συνδεθείτε πρώτα με έναν λογαριασμό.</string>
+
+    <!-- Hardware Decoding MPV -->
+    <string name="audio_mpv_hwdec_title">Αποκωδικοποίηση υλικού (μόνο MPV)</string>
+    <string name="audio_mpv_hwdec_dialog_subtitle">Επιλέξτε πώς το libmpv πρέπει να χρησιμοποιεί αποκωδικοποιητές υλικού.</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy">Παλαιό (άμεσο -&gt; αντιγραφή)</string>
+    <string name="audio_mpv_hwdec_legacy_direct_copy_desc">Προηγούμενη προεπιλεγμένη συμπεριφορά: δοκιμή άμεσου υλικού πρώτα, μετά αντιγραφή.</string>
+    <string name="audio_mpv_hwdec_auto_safe">Αυτόματο (auto-safe)</string>
+    <string name="audio_mpv_hwdec_auto_safe_desc">Πιο ασφαλής αυτόματη λειτουργία με εναλλακτική όταν κάποιοι αποκωδικοποιητές αποτυγχάνουν.</string>
+    <string name="audio_mpv_hwdec_hardware_copy">Υλικό (αντιγραφή) (mediacodec-copy)</string>
+    <string name="audio_mpv_hwdec_hardware_copy_desc">Χρησιμοποιεί αποκωδικοποίηση υλικού με αντιγραφή στη μνήμη λογισμικού.</string>
+    <string name="audio_mpv_hwdec_hardware_direct">Υλικό (άμεσο) (mediacodec)</string>
+    <string name="audio_mpv_hwdec_hardware_direct_desc">Χρησιμοποιεί άμεση αποκωδικοποίηση υλικού. Ταχύτερη διαδρομή σε συμβατές συσκευές.</string>
+    <string name="audio_mpv_hwdec_disabled">Απενεργοποιημένο (no)</string>
+    <string name="audio_mpv_hwdec_disabled_desc">Απενεργοποιεί την αποκωδικοποίηση υλικού και χρησιμοποιεί μόνο λογισμικό.</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_play">Αναπαραγωγή</string>
+    <string name="cd_pause">Παύση</string>
+    <string name="cd_subtitles">Υπότιτλοι</string>
+    <string name="cd_audio_tracks">Κομμάτια ήχου</string>
+    <string name="cd_sources">Πηγές</string>
+    <string name="cd_switch_player_engine">Εναλλαγή μηχανής αναπαραγωγής</string>
+    <string name="cd_episodes">Επεισόδια</string>
+    <string name="cd_playback_speed">Ταχύτητα αναπαραγωγής</string>
+    <string name="cd_aspect_ratio">Αναλογία διαστάσεων</string>
+    <string name="cd_open_external_player">Άνοιγμα σε εξωτερικό player</string>
+    <string name="cd_stream_info">Πληροφορίες ροής</string>
+    <string name="cd_more_actions">Περισσότερες ενέργειες</string>
+    <string name="cd_close_more_actions">Κλείσιμο περισσότερων ενεργειών</string>
+    <string name="cd_back">Πίσω</string>
+    <string name="cd_next_episode_thumbnail">Μικρογραφία επόμενου επεισοδίου</string>
+    <string name="cd_current">Τρέχον</string>
+    <string name="cd_loading_backdrop">Φόρτωση φόντου</string>
+    <string name="cd_loading_logo">Φόρτωση λογότυπου</string>
+    <string name="cd_move_up">Μετακίνηση πάνω</string>
+    <string name="cd_move_down">Μετακίνηση κάτω</string>
+    <string name="cd_qr_code">Κωδικός QR</string>
+    <string name="cd_add">Προσθήκη</string>
+    <string name="cd_refresh">Ανανέωση</string>
+    <string name="cd_remove">Αφαίρεση</string>
+    <string name="cd_test">Δοκιμή</string>
+    <string name="cd_unlink">Αποσύνδεση</string>
+    <string name="cd_nuvio_logo">NuvioTV</string>
+    <string name="cd_trakt_logo">Λογότυπο Trakt</string>
+    <string name="cd_trakt_qr">QR ενεργοποίησης Trakt</string>
+    <string name="cd_imdb">IMDb</string>
+    <string name="cd_open_discover">Άνοιγμα Ανακάλυψης</string>
+    <string name="cd_voice_search">Φωνητική αναζήτηση</string>
+    <string name="cd_donation_qr">Κωδικός QR δωρεάς</string>
+    <string name="cd_contributor_qr">Κωδικός QR υποστήριξης συνεισφέροντα</string>
+    <string name="cd_expand">Ανάπτυξη %1$s</string>
+    <string name="cd_collapse">Σύμπτυξη %1$s</string>
+    <string name="cd_qr_login">Κωδικός QR σύνδεσης</string>
+    <string name="cd_nuvio">Nuvio</string>
+
+    <!-- Debug -->
+    <string name="debug_signin_success">Επιτυχής σύνδεση</string>
+    <string name="debug_generate_description">Debug-δημιουργημένο %1$s στοιχείο #%2$d</string>
+    <string name="debug_generate_result_failed">Αποτυχία: %1$s</string>
+
+    <!-- Discover -->
+    <string name="discover_disabled_title">Η Ανακάλυψη είναι απενεργοποιημένη</string>
+    <string name="discover_disabled_subtitle">Ενεργοποιήστε Αναζήτηση &amp; Ανακάλυψη στις ρυθμίσεις</string>
+
+    <!-- Errors -->
+    <string name="error_network_required">Συνδεθείτε σε Wi-Fi ή Ethernet για να χρησιμοποιήσετε αυτή τη λειτουργία</string>
+    <string name="error_server_ports_unavailable">Δεν ήταν δυνατή η εκκίνηση του διακομιστή. Όλες οι θύρες χρησιμοποιούνται.</string>
+    <string name="home_error_no_addons">Δεν υπάρχουν εγκατεστημένα πρόσθετα</string>
+    <string name="home_error_no_catalog_addons">Δεν υπάρχουν εγκατεστημένα πρόσθετα καταλόγου</string>
+
+    <!-- Library -->
+    <string name="library_list_create_dialog_title">Δημιουργία λίστας</string>
+    <string name="library_list_edit_dialog_title">Επεξεργασία λίστας</string>
+    <string name="library_sync_btn">Συγχρονισμός</string>
+    <string name="library_syncing_btn">Συγχρονισμός…</string>
+
+    <!-- Player engine -->
+    <string name="playback_internal_player_engine">Εσωτερική μηχανή</string>
+    <string name="playback_engine_exoplayer">ExoPlayer</string>
+    <string name="playback_engine_exoplayer_desc">Καλύτερη συμβατότητα με τρέχουσες λειτουργίες Nuvio.</string>
+    <string name="playback_engine_mvplayer">Libmpv (Beta)</string>
+    <string name="playback_engine_mvplayer_desc">Χρησιμοποιεί libmpv με στοιχεία ελέγχου OSD Nuvio. Πειραματικό.</string>
+    <string name="playback_auto_switch_internal_player_on_error">Αυτόματη εναλλαγή μηχανής σε σφάλμα</string>
+    <string name="playback_auto_switch_internal_player_on_error_sub">Εάν η εκκίνηση ροής αποτύχει, εναλλαγή αυτόματα μεταξύ ExoPlayer και libmpv.</string>
+    <string name="playback_show_loading_status">Εμφάνιση κατάστασης φόρτωσης</string>
+    <string name="playback_show_loading_status_sub">Εμφάνιση βήμα προς βήμα προόδου κατά την αρχικοποίηση του player.</string>
+    <string name="player_engine_switching_title">Εναλλαγή μηχανής αναπαραγωγής</string>
+    <string name="player_engine_switching_message">Η εκκίνηση απέτυχε. Εναλλαγή σε %1$s…</string>
+    <string name="player_engine_switching_manual_message">Εναλλαγή σε %1$s...</string>
+    <string name="player_error_no_stream_url">Δεν παρασχέθηκε URL ροής</string>
+    <string name="player_loading_preparing">Προετοιμασία ροής…</string>
+    <string name="player_loading_detecting_format">Ανίχνευση μορφής ροής…</string>
+    <string name="player_loading_subtitles">Λήψη υπότιτλων…</string>
+    <string name="player_loading_subtitles_from">Λήψη υπότιτλων από %1$d πρόσθετα…</string>
+    <string name="player_loading_subtitles_progress">Λήψη υπότιτλων… (%1$d / %2$d)</string>
+    <string name="player_loading_subtitles_addon">Υπότιτλοι: %1$s (%2$d / %3$d)</string>
+    <string name="player_loading_building">Κατασκευή player…</string>
+    <string name="player_loading_starting">Εκκίνηση ροής…</string>
+    <string name="player_loading_buffering">Αποθήκευση…</string>
+    <string name="player_aspect_tunneling_unavailable">Μη διαθέσιμο κατά τη διάρκεια αναπαραγωγής σήραγγας</string>
+    <string name="player_aspect_mode_slight_zoom">Ελαφρά μεγέθυνση</string>
+    <string name="player_aspect_mode_cinema_zoom">Κινηματογραφική μεγέθυνση</string>
+
+    <!-- Plugin errors -->
+    <string name="plugin_error_invalid_url">Εισάγετε έγκυρο URL</string>
+    <string name="plugin_error_add_repo">Αποτυχία προσθήκης αποθετηρίου: %1$s</string>
+    <string name="plugin_error_refresh">Αποτυχία ανανέωσης: %1$s</string>
+    <string name="plugin_error_test">Αποτυχία δοκιμής: %1$s</string>
+    <string name="plugin_test_no_results">Δεν βρέθηκαν αποτελέσματα</string>
+    <string name="plugin_test_found_streams">Βρέθηκαν %1$d ροές</string>
+    <string name="plugin_version">Έκδοση %1$s</string>
+
+    <!-- Profile -->
+    <string name="profile_edit_header">Επεξεργασία προφίλ</string>
+    <string name="profile_pin_save_error">Δεν ήταν δυνατή η αποθήκευση του PIN. Δοκιμάστε ξανά.</string>
+    <string name="profile_pin_locked">Το προφίλ είναι κλειδωμένο. Δοκιμάστε ξανά σε %1$d δευτερόλεπτα.</string>
+    <string name="profile_pin_invalid">Μη έγκυρο PIN. Δοκιμάστε ξανά.</string>
+    <string name="profile_pin_verify_error">Δεν ήταν δυνατή η επαλήθευση του PIN. Δοκιμάστε ξανά.</string>
+    <string name="profile_pin_incorrect">Το τρέχον PIN είναι λανθασμένο.</string>
+
+    <!-- Ratings -->
+    <string name="ratings_episode_label">Ε%1$d</string>
+    <string name="ratings_season_label">Κ%1$d</string>
+
+    <!-- Search -->
+    <string name="search_recent_title">Πρόσφατες αναζητήσεις</string>
+    <string name="search_recent_clear">Εκκαθάριση ιστορικού</string>
+    <string name="search_error_no_catalogs">Δεν βρέθηκαν αναζητήσιμοι κατάλογοι στα εγκατεστημένα πρόσθετα</string>
+    <string name="search_no_results_title">Δεν υπάρχουν αποτελέσματα</string>
+    <string name="search_no_results_subtitle">Δοκιμάστε αναζήτηση με διαφορετικές λέξεις-κλειδιά</string>
+
+    <!-- Stream -->
+    <string name="stream_episode_label">Κ%1$d Ε%2$d</string>
+
+    <!-- Subtitle -->
+    <string name="sub_mode_overlay_canvas_sub">Υποστήριξη HDR με Canvas rendering. Ενδέχεται να μπλοκάρει το νήμα UI.</string>
+    <string name="subtitle_built_in">Ενσωματωμένο</string>
+    <string name="subtitle_style_weight">Βάρος</string>
+
+    <!-- Sync -->
+    <string name="sync_claim_linking">Σύνδεση…</string>
+    <string name="sync_generate_generating">Δημιουργία…</string>
+    <string name="sync_generate_code_btn">Δημιουργία κωδικού</string>
+
+    <!-- TMDB -->
+    <string name="tmdb_release_dates_title">Ημερομηνίες κυκλοφορίας</string>
+    <string name="tmdb_release_dates_subtitle">Ημερομηνίες κυκλοφορίας και προβολής από TMDB</string>
+
+    <!-- Trakt errors -->
+    <string name="trakt_error_code_expired">Ο κωδικός συσκευής έληξε. Ξεκινήστε ξανά.</string>
+    <string name="trakt_error_code_used">Ο κωδικός συσκευής χρησιμοποιήθηκε ήδη. Ξεκινήστε ξανά.</string>
+    <string name="trakt_error_denied">Η εξουσιοδότηση στο Trakt απορρίφθηκε.</string>
+
+    <!-- Web interface -->
+    <string name="web_manage_addons_title">Διαχείριση πρόσθετων</string>
+    <string name="web_manage_addons_subtitle">Διαχείριση πρόσθετων και καταλόγων αρχικής σελίδας</string>
+    <string name="web_add_addon_url">Προσθήκη πρόσθετου μέσω URL</string>
+    <string name="web_placeholder_url">https://example.com/manifest.json</string>
+    <string name="web_btn_add">Προσθήκη</string>
+    <string name="web_installed_addons">Εγκατεστημένα πρόσθετα</string>
+    <string name="web_no_addons">Δεν υπάρχουν εγκατεστημένα πρόσθετα</string>
+    <string name="web_home_catalogs">Κατάλογοι αρχικής σελίδας</string>
+    <string name="web_no_catalogs">Δεν υπάρχουν διαθέσιμοι κατάλογοι</string>
+    <string name="web_btn_save">Αποθήκευση αλλαγών</string>
+    <string name="web_connection_lost">Χάθηκε η σύνδεση με την τηλεόραση</string>
+    <string name="web_btn_remove">Αφαίρεση</string>
+    <string name="web_badge_new">Νέο</string>
+    <string name="web_badge_disabled">Απενεργοποιημένο</string>
+    <string name="web_btn_enable">Ενεργοποίηση</string>
+    <string name="web_btn_disable">Απενεργοποίηση</string>
+    <string name="web_error_addon_exists">Αυτό το πρόσθετο υπάρχει ήδη στη λίστα</string>
+    <string name="web_status_waiting_tv">Αναμονή τηλεόρασης</string>
+    <string name="web_status_msg_waiting_tv">Επιβεβαιώστε τις αλλαγές στην τηλεόρασή σας για να εφαρμοστούν.</string>
+    <string name="web_status_changes_applied">Εφαρμόστηκαν αλλαγές</string>
+    <string name="web_status_msg_addon_updated">Η διαμόρφωση του πρόσθετου ενημερώθηκε στην τηλεόραση.</string>
+    <string name="web_status_msg_repo_updated">Η διαμόρφωση του αποθετηρίου ενημερώθηκε στην τηλεόραση.</string>
+    <string name="web_status_changes_rejected">Απορρίφθηκαν αλλαγές</string>
+    <string name="web_status_msg_changes_rejected">Οι αλλαγές απορρίφθηκαν στην τηλεόραση. Η λίστα σας επαναφέρθηκε.</string>
+    <string name="web_status_error">Κάτι πήγε στραβά</string>
+    <string name="web_error_failed_save">Αποτυχία αποθήκευσης. Ελέγξτε τη σύνδεσή σας με την τηλεόραση.</string>
+    <string name="web_btn_dismiss">Απόρριψη</string>
+    <string name="web_status_timeout">Λήξη χρόνου</string>
+    <string name="web_status_msg_timeout">Δεν υπήρξε απόκριση από την τηλεόραση. Δοκιμάστε ξανά.</string>
+    <string name="web_status_msg_connection_lost">Ο διακομιστής τηλεόρασης δεν είναι πλέον προσβάσιμος. Οι αλλαγές μπορεί να εφαρμόστηκαν.</string>
+    <string name="web_manage_repos_title">Διαχείριση αποθετηρίων</string>
+    <string name="web_manage_repos_subtitle">Διαχείριση των αποθετηρίων σας</string>
+    <string name="web_add_repo_url">Προσθήκη αποθετηρίου μέσω URL</string>
+    <string name="web_installed">Εγκατεστημένο</string>
+    <string name="web_no_repos">Δεν υπάρχουν εγκατεστημένα αποθετήρια</string>
+    <string name="web_error_repo_exists">Αυτό το αποθετήριο υπάρχει ήδη στη λίστα</string>
+
 </resources>

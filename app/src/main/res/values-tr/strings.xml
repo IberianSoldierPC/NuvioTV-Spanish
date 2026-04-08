@@ -3,7 +3,6 @@
     <string name="type_movie">Film</string>
     <string name="type_series">Dizi</string>
     <string name="type_unknown">Bilinmiyor</string>
-
     <!-- WebConfigServers -->
     <string name="web_manage_addons_title">Eklentileri Yönet</string>
     <string name="web_manage_addons_subtitle">Eklentileri ve ana sayfa kataloglarını yönetin</string>
@@ -47,7 +46,6 @@
     <string name="auth_notice_nuvio_logged_out">Nuvio hesabınızdan çıkış yapıldı. Lütfen tekrar giriş yapın.</string>
     <string name="auth_notice_trakt_logged_out">Trakt hesabınızdan çıkış yapıldı. Lütfen yeniden bağlanın.</string>
     <string name="error_generic">Bir hata oluştu</string>
-
     <!-- ErrorState -->
     <string name="action_retry">Tekrar Dene</string>
     <string name="error_state_generic_issue">Bir sorun oluştu.</string>
@@ -82,7 +80,6 @@
     <string name="error_stream_tried_none">Şu eklentiler denendi: %1$s. Hiçbiri id=%2$s (tür=%3$s) için yayın döndürmedi.</string>
     <string name="error_stream_tried_generic">Şu eklentiler denendi: %1$s. id=%2$s (tür=%3$s) için yayınlar yüklenemedi.</string>
     <string name="error_stream_tried_issues">Şu eklentiler denendi: %1$s. id=%2$s (tür=%3$s) için yayınlar yüklenemedi. Sorunlar: %4$s.</string>
-
     <!-- ContinueWatchingSection -->
     <string name="continue_watching">İzlemeye Devam Et</string>
     <string name="cw_upcoming">Yaklaşanlar</string>
@@ -100,11 +97,9 @@
     <string name="cw_action_remove">Kaldır</string>
     <string name="cw_dialog_subtitle">Bu öğe ile ne yapmak istediğinizi seçin.</string>
     <string name="home_poster_dialog_subtitle">İçerik işlemleri</string>
-
     <!-- CatalogRowSection -->
     <string name="catalog_from_addon">Kaynak: %1$s</string>
     <string name="action_see_all">Tümünü Gör</string>
-
     <!-- HeroSection -->
     <string name="hero_creator">Yapımcı: %1$s</string>
     <string name="hero_director">Yönetmen: %1$s</string>
@@ -118,7 +113,6 @@
     <string name="hero_play_trailer">Fragmanı izle</string>
     <string name="hero_press_back_trailer">Fragmandan çıkmak için geri tuşuna basın</string>
     <string name="cd_rating">Değerlendirme</string>
-
     <!-- EpisodesSection -->
     <string name="episodes_season">Sezon %1$d</string>
     <string name="episodes_specials">Özel Bölümler</string>
@@ -133,7 +127,6 @@
     <string name="episodes_play">Oynat</string>
     <string name="play_manually">Manuel oynat</string>
     <string name="episodes_season_actions">Sezon ayarları</string>
-
     <!-- MetaDetailsViewModel -->
     <string name="detail_added_to_library">Kütüphaneye eklendi</string>
     <string name="detail_removed_from_library">Kütüphaneden kaldırıldı</string>
@@ -148,7 +141,6 @@
     <string name="detail_marked_episodes_watched">İzlendi olarak işaretlenen bölümler: %1$d</string>
     <string name="detail_marked_episodes_unwatched">İzlenmedi olarak işaretlenen bölümler: %1$d</string>
     <string name="detail_marked_previous_watched">İzlendi olarak işaretlenen önceki bölümler: %1$d</string>
-
     <!-- MetaDetailsScreen -->
     <string name="detail_btn_play">Oynat</string>
     <string name="detail_btn_resume">Devam Et</string>
@@ -198,24 +190,20 @@
     <string name="detail_lists_subtitle">Bu içeriğin hangi listelerde yer alacağını seçin.</string>
     <string name="action_save">Kaydet</string>
     <string name="action_saving">Kaydediliyor…</string>
-
     <!-- AppLanguage -->
     <string name="appearance_language">Uygulama Dili</string>
     <string name="appearance_language_subtitle">Sistem dilini geçersiz kıl</string>
     <string name="appearance_language_system">Sistem varsayılanı</string>
     <string name="appearance_language_dialog_title">Dil Seçin</string>
     <string name="appearance_language_restart_hint">Dil değişikliğinin uygulanması için uygulamayı yeniden başlatın.</string>
-
     <!-- Font -->
     <string name="appearance_font">Uygulama Yazı Tipi</string>
     <string name="appearance_font_subtitle">Tercih ettiğiniz yazı tipini belirleyin</string>
     <string name="appearance_font_dialog_title">Yazı Tipi Seçimi</string>
-
     <!-- ThemeSettingsScreen -->
     <string name="appearance_title">Görünüm</string>
     <string name="appearance_subtitle">Renk temanızı ve dilinizi seçin</string>
     <string name="cd_selected">Seçili</string>
-
     <!-- AboutScreen -->
     <string name="about_title">Hakkında</string>
     <string name="about_subtitle">Uygulama bilgileri, güncellemeler ve yasal bağlantılar</string>
@@ -227,7 +215,6 @@
     <string name="about_privacy_policy_subtitle">Gizlilik politikamızı görüntüleyin</string>
     <string name="about_supporters_contributors">Destekleyenler ve Katkıda Bulunanlar</string>
     <string name="about_supporters_contributors_subtitle">Projede emeği geçenler ve açık kaynak destekçileri</string>
-
     <!-- SettingsScreen categories -->
     <string name="settings_account">Hesap</string>
     <string name="settings_account_subtitle">Hesap ve senkronizasyon durumu.</string>
@@ -273,7 +260,6 @@
     <string name="settings_tmdb_subtitle">Meta veri zenginleştirme kontrolleri</string>
     <string name="settings_mdblist_subtitle">Harici değerlendirme sağlayıcıları</string>
     <string name="settings_animeskip_subtitle">Anime jeneriklerini (intro/outro) otomatik atlama ayarları</string>
-
     <!-- PlaybackSettingsScreen -->
     <string name="playback_title">Oynatma Ayarları</string>
     <string name="playback_subtitle">Video oynatma ve altyazı seçeneklerini yapılandırın</string>
@@ -282,7 +268,6 @@
     <string name="action_cancel">İptal</string>
     <string name="action_none">Hiçbiri</string>
     <string name="action_close">Kapat</string>
-
     <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">Destekleyenler ve Katkıda Bulunanlar</string>
     <string name="supporters_contributors_subtitle">Nuvio\'nun arkasındaki güç: Projeyi destekleyenler ile TV ve mobil uygulamaları geliştiren ekip.</string>
@@ -308,7 +293,6 @@
     <string name="contributors_show_kofi_qr">Ko-fi QR Kodunu Göster</string>
     <string name="contributors_hide_kofi_qr">Ko-fi QR Kodunu Gizle</string>
     <string name="contributors_profile_unavailable">Bu kişinin GitHub profiline ulaşılamıyor.</string>
-
     <!-- PlaybackSettingsSections -->
     <string name="playback_section_general">Genel</string>
     <string name="playback_section_general_desc">Temel oynatma davranışı.</string>
@@ -343,7 +327,6 @@
     <string name="playback_resolution_matching_sub">Ekran modunun otomatik olarak videonun kendi çözünürlüğüne adapte olmasını sağlayın.</string>
     <string name="playback_player_external_desc">Yayınları her zaman harici bir uygulamada aç</string>
     <string name="playback_player_ask_desc">Her seferinde hangi oynatıcının kullanılacağını seçin</string>
-
     <!-- PlaybackAudioSettings -->
     <string name="audio_trailer_section">Fragman</string>
     <string name="audio_autoplay_trailers">Fragmanları Otomatik Oynat</string>
@@ -368,7 +351,6 @@
     <string name="audio_decoder_prefer_device_desc">Mümkün olduğunda donanım kod çözücülerini kullan, değilse FFmpeg\'e dön. Çoğu cihaz için önerilir.</string>
     <string name="audio_decoder_prefer_app_desc">Mümkün olduğunda FFmpeg kod çözücülerini kullan. Daha iyi format desteği ancak daha yüksek CPU kullanımı.</string>
     <string name="audio_decoder_controls">Ses ve video için donanım mı yoksa yazılım (FFmpeg) kod çözücülerinin mi kullanılacağını kontrol eder</string>
-
     <!-- PlaybackSubtitleSettings -->
     <string name="sub_section">Altyazılar</string>
     <string name="sub_not_set">Ayarlanmadı</string>
@@ -411,7 +393,6 @@
     <string name="sub_startup_mode_fast_desc">Videoyu beklemeden başlatır. Eklentiden farklı bir altyazı seçerseniz oynatıcı anlık olarak yeniden yüklenebilir.</string>
     <string name="sub_startup_mode_preferred_desc">Video başlamadan önce eklenti altyazılarını arar ve yalnızca seçtiğiniz dillerdeki altyazıları hazır eder.</string>
     <string name="sub_startup_mode_all_desc">Bulunan tüm eklenti altyazılarını baştan arka planda getirir. Videonun başlaması biraz daha uzun sürebilir.</string>
-
     <!-- PlaybackAutoPlaySettings -->
     <string name="autoplay_reuse_last_link">Son Bağlantıyı Yeniden Kullan</string>
     <string name="autoplay_reuse_last_link_sub">Aynı film/bölüm için önbellek hala geçerliyken çalışan son yayınınızı otomatik oynatın</string>
@@ -453,7 +434,6 @@
     <string name="autoplay_regex_matches">Yayın adı/başlık/açıklama/eklenti/url ile eşleşir. Örnek: 4K|2160p|Remux</string>
     <string name="autoplay_regex_presets">Hazır Ayarlar</string>
     <string name="autoplay_invalid_regex">Geçersiz regex deseni</string>
-
     <!-- LayoutSettingsScreen -->
     <string name="layout_title">Düzen Ayarları</string>
     <string name="layout_subtitle">Ana sayfa düzenini, içerik görünürlüğünü ve poster davranışını ayarlayın</string>
@@ -541,8 +521,6 @@
     <string name="layout_card_radius">Köşe Yarıçapı</string>
     <string name="layout_reset_default">Varsayılana Sıfırla</string>
     <string name="layout_custom">Özel</string>
-
-
     <!-- MDBListSettingsScreen -->
     <string name="mdblist_title">MDBList Değerlendirmeleri</string>
     <string name="mdblist_subtitle">Detaylarda gösterilecek harici derecelendirmeleri yapılandırın</string>
@@ -569,7 +547,6 @@
     <string name="mdblist_dialog_placeholder">MDBList API Anahtarını Girin</string>
     <string name="mdblist_not_set">Ayarlanmadı</string>
     <string name="mdblist_invalid_api_key">Geçersiz MDBList API anahtarı</string>
-
     <!-- Anime-Skip -->
     <string name="animeskip_title">Anime Jeneriklerini Atla</string>
     <string name="animeskip_subtitle">Animelerin intro ve outro kısımlarını otomatik atlayabilmek için Anime Skip İstemci Kimliğinizi (Client ID) buraya girin.</string>
@@ -582,7 +559,6 @@
     <string name="animeskip_dialog_placeholder">İstemci Kimliğinizi Buraya Yapıştırın</string>
     <string name="animeskip_invalid_client_id">Geçersiz Client ID</string>
     <string name="action_clear">Temizle</string>
-
     <!-- TmdbSettingsScreen -->
     <string name="tmdb_title">TMDB Zenginleştirme</string>
     <string name="tmdb_subtitle">Hangi meta veri alanlarının TMDB\'den geleceğini seçin</string>
@@ -612,9 +588,7 @@
     <string name="tmdb_more_like_this_subtitle">Detaylarda TMDB önerileri</string>
     <string name="tmdb_collections_title">Koleksiyonlar</string>
     <string name="tmdb_collections_subtitle">TMDB üzerinden derlenmiş film koleksiyonları (çıkış yılına göre sıralanır)</string>
-
     <string name="tmdb_language_dialog_title">TMDB Dili</string>
-
     <!-- TraktScreen -->
     <string name="trakt_description">İzleme listenizi, oynatma ilerlemenizi, izlemeye devam ettiklerinizi ve kişisel listelerinizi Trakt ile eşitleyin.</string>
     <string name="trakt_connected_as">%1$s olarak bağlı</string>
@@ -671,7 +645,6 @@
     <string name="trakt_hide_unaired">Yayınlanmamış bölümleri gizle</string>
     <string name="trakt_all_history">Tüm geçmiş</string>
     <string name="trakt_days_format">%1$d gün</string>
-
     <!-- DebugSettingsScreen -->
     <string name="debug_title">Hata Ayıklama</string>
     <string name="debug_subtitle">Geliştirici araçları ve özellik bayrakları (sadece hata ayıklama yapıları)</string>
@@ -699,7 +672,6 @@
     <string name="debug_generate_library_placeholder">Öğe sayısı</string>
     <string name="debug_generate_library_button">Oluştur</string>
     <string name="debug_generating_library">Oluşturuluyor\u2026</string>
-
     <!-- ProfileSettingsContent -->
     <string name="profile_title">Profiller</string>
     <string name="profile_subtitle">Bu hesaptaki kullanıcı profillerini yönetin.</string>
@@ -735,7 +707,6 @@
     <string name="profile_add_new">Yeni Profil Oluştur</string>
     <string name="profile_cancel">Vazgeç</string>
     <string name="profile_save">Değişiklikleri Kaydet</string>
-
     <string name="profile_pin_title">Profil PIN Kilidi</string>
     <string name="profile_pin_enabled_subtitle">Bu profili açmadan önce 4 haneli PIN girmek gerekiyor.</string>
     <string name="profile_pin_disabled_subtitle">Bu profili kilitlemek için 4 haneli bir PIN belirleyin.</string>
@@ -767,8 +738,6 @@
     <string name="profile_pin_overlay_mismatch">PINler eşleşmedi. Tekrar deneyin.</string>
     <string name="profile_pin_overlay_forgot_hint">PIN mi unuttunuz? Nuvio web sitesinden sıfırlayabilirsiniz.</string>
     <string name="profile_pin_overlay_back_hint">İptal etmek için geri tuşuna basın</string>
-
-
     <!-- AddonManagerScreen -->
     <string name="addon_title">Eklentiler</string>
     <string name="addon_readonly_notice">Birincil profilin eklentileri kullanılıyor, değiştirilemez</string>
@@ -798,7 +767,6 @@
     <string name="addon_confirm_no_changes">Okunan yeni bir değişiklik algılanmadı</string>
     <string name="addon_confirm_reject">Reddet</string>
     <string name="addon_confirm_confirm">Onayla</string>
-
     <!-- CatalogOrderScreen -->
     <string name="catalog_order_title">Ana Sayfa Kataloglarını Yeniden Sırala</string>
     <string name="catalog_order_subtitle">Bu seçenek, Ana sayfadaki katalog satırı sırasını (Klasik/Modern/Izgara) kontrol eder.</string>
@@ -806,8 +774,6 @@
     <string name="catalog_order_disabled_on_home">Ana Sayfada Devre Dışı</string>
     <string name="catalog_order_enable">Etkinleştir</string>
     <string name="catalog_order_disable">Devre Dışı</string>
-
-
     <!-- StreamScreen -->
     <string name="stream_retry">Yeniden Dene</string>
     <string name="stream_no_streams">Akış bulunamadı</string>
@@ -819,10 +785,8 @@
     <string name="stream_player_picker_title">Hangi oynatıcı kullanılsın?</string>
     <string name="stream_player_internal">Dahili Oynatıcı</string>
     <string name="stream_player_external">Harici Oynatıcı</string>
-
     <!-- PlayerScreen -->
     <string name="player_no_external_player">Harici oynatıcı bulunamadı</string>
-
     <!-- ParentalGuideOverlay -->
     <string name="parental_nudity">Çıplaklık</string>
     <string name="parental_violence">Şiddet</string>
@@ -842,7 +806,6 @@
     <string name="player_more_speed">Oynatma Hızı</string>
     <string name="player_more_aspect_ratio">Görüntü Oranı</string>
     <string name="player_more_open_external">Harici Oynatıcıda Aç</string>
-
     <!-- StreamInfoOverlay -->
     <string name="stream_info_section_source">KAYNAK</string>
     <string name="stream_info_section_file">DOSYA</string>
@@ -862,14 +825,12 @@
     <string name="stream_info_source">Kaynak</string>
     <string name="stream_info_subtitle_source_addon">Eklenti</string>
     <string name="stream_info_subtitle_source_embedded">Gömülü</string>
-
     <!-- StreamSourcesSidePanel -->
     <string name="sources_title">Kaynaklar</string>
     <string name="sources_reload">Yenile</string>
     <string name="sources_close">Kapat</string>
     <string name="sources_playing">Oynatılıyor</string>
     <string name="sources_no_streams">Kaynak bulunamadı</string>
-
     <!-- EpisodesSidePanel -->
     <string name="episodes_panel_close">Kapat</string>
     <string name="episodes_panel_back">Geri</string>
@@ -887,7 +848,6 @@
     <string name="player_aspect_tunneling_unavailable">Tünellenmiş oynatım sırasında kullanılamaz</string>
     <string name="player_aspect_mode_slight_zoom">Hafif Yakınlaştırma</string>
     <string name="player_aspect_mode_cinema_zoom">Sinema Yakınlaştırma</string>
-
     <!-- AudioDialog -->
     <string name="audio_dialog_title">Ses</string>
     <string name="audio_dialog_tab_tracks">Ses</string>
@@ -899,7 +859,6 @@
     <string name="audio_mix_range">Aralık: %1$d dB - %2$d dB</string>
     <string name="audio_mix_range_saved">Aralık: %1$d dB - %2$d dB (kaydedildi)</string>
     <string name="audio_mix_unavailable">Bu cihazda amplifikasyon kullanılamıyor</string>
-
     <!-- SubtitleDialog / SubtitleStyleSidePanel -->
     <string name="subtitle_dialog_title">Altyazılar</string>
     <string name="subtitle_no_builtin">Dosyaya gömülü altyazı yok</string>
@@ -937,13 +896,11 @@
     <string name="subtitle_style_off">Kapalı</string>
     <string name="panel_failed_load_streams">Kaynaklar yüklenemedi</string>
     <string name="panel_failed_load_episodes">Bölümler yüklenemedi</string>
-
     <!-- PauseOverlay -->
     <string name="pause_you_are_watching">Şu an izliyorsunuz:</string>
     <string name="pause_cast_label">Oyuncular</string>
     <string name="pause_back_to_details">Ayrıntılara dön</string>
     <string name="pause_as_character">Karakter: %1$s</string>
-
     <!-- NextEpisodeCardOverlay -->
     <string name="next_episode_label">Sıradaki Bölüm</string>
     <string name="next_episode_finding_source">Kaynak aranıyor…</string>
@@ -957,8 +914,6 @@
     <string name="skip_generic">Atla</string>
     <string name="display_mode_refresh">Yenile</string>
     <string name="display_mode_resolution">Çözünürlük</string>
-
-
     <!-- SearchScreen -->
     <string name="search_keyboard_hint">Aramak için klavyede Bitti\'ye basın</string>
     <string name="search_placeholder">Film ve dizi ara</string>
@@ -969,7 +924,6 @@
     <string name="search_voice_mic_permission">Sesli arama için mikrofon izni gereklidir.</string>
     <string name="search_voice_failed">Ses tanıma başarısız oldu. Tekrar deneyin.</string>
     <string name="search_voice_unavailable">Bu cihazda sesli arama kullanılamıyor.</string>
-
     <!-- LibraryScreen -->
     <string name="library_syncing">Trakt kütüphanesi senkronize ediliyor\u2026</string>
     <string name="library_title">Kütüphane</string>
@@ -1037,7 +991,6 @@
     <string name="library_empty_trakt_title">Bu listede içerik görünmüyor</string>
     <string name="library_empty_local_subtitle">İçerik eklemek için içerik detaylarındaki + tuşunu kullanın</string>
     <string name="library_empty_trakt_subtitle">İçerikleri izleme listenize eklemek için içerik detaylarındaki + tuşunu kullanın</string>
-
     <!-- AccountSettingsContent -->
     <string name="account_loading">Yükleniyor\u2026</string>
     <string name="account_sync_description">Kütüphanenizi, görüntüleme ilerlemenizi, eklentilerinizi ve uzantılarınızı cihazlar arasında eşitleyin.</string>
@@ -1048,12 +1001,10 @@
     <string name="account_total_label">Toplam</string>
     <string name="account_loading_sync">Senkronizasyon verileri yükleniyor\u2026</string>
     <string name="account_sign_out">Oturumu Kapat</string>
-
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">Oturum Aç</string>
     <string name="auth_signin_tv_disabled">TV\'de E-Posta / Parola girişi devre dışı. QR ile Giriş sekmesinden devam edin.</string>
     <string name="auth_signin_qr_btn">QR Kod ile Devam Et</string>
-
     <!-- AuthQrSignInScreen -->
     <string name="auth_qr_title">QR Kod ile Oturum Aç</string>
     <string name="auth_qr_account_login">Oturum Aç</string>
@@ -1072,7 +1023,6 @@
     <string name="auth_qr_please_wait">Lütfen bekleyin\u2026</string>
     <string name="auth_qr_continue">Devam Et</string>
     <string name="auth_qr_back">Geri</string>
-
     <!-- SyncCodeGenerateScreen -->
     <string name="sync_generate_title">Senkronizasyon Kodu Oluştur</string>
     <string name="sync_generate_subtitle">Senkronizasyon kodunuzu korumak için bir PIN oluşturun. Parolanızı diğer cihazlarda kullanabilirsiniz.</string>
@@ -1081,7 +1031,6 @@
     <string name="sync_generate_done">Bitti</string>
     <string name="sync_generate_pin_label">Bir PIN Belirleyin (4 ile 8 karakter arasında)</string>
     <string name="sync_generate_pin_placeholder">PIN girin</string>
-
     <!-- SyncCodeClaimScreen -->
     <string name="sync_claim_title">Cihazı Bağla</string>
     <string name="sync_claim_subtitle">Cihazınızı eşleştirmek için diğer cihazdan aldığınız senkronizasyon kodunu ve PIN\'i girin.</string>
@@ -1091,7 +1040,6 @@
     <string name="sync_claim_code_placeholder">XXXX-XXXX-XXXX-XXXX-XXXX</string>
     <string name="sync_claim_pin_label">PIN</string>
     <string name="sync_claim_pin_placeholder">PIN numarasını gir</string>
-
     <!-- PluginScreen -->
     <string name="plugin_readonly_notice">Birincil profilin uzantıları eşleştirildi. Başka değişiklik yapmanız kısıtlanmıştır.</string>
     <string name="plugin_repositories_section">Depolar (%1$d)</string>
@@ -1115,7 +1063,6 @@
     <string name="plugin_updated_format">Güncellenme: %1$s</string>
     <string name="plugin_test_btn">Test Et</string>
     <string name="plugin_test_results">Deneme Sonucu (%1$d Bağlantı bulundu)</string>
-
     <!-- ProfileSelectionScreen -->
     <string name="profile_selection_title">Kim izliyor?</string>
     <string name="profile_selection_subtitle">İçeriklere girmek için kullanıcı profilinizden birine tıklayın.</string>
@@ -1127,7 +1074,6 @@
     <string name="profile_delete_confirm_subtitle">Bu işlem, profili ve o profile ait kişisel kütüphane, izleme geçmişi ve tüm eklenti tercihlerini kalıcı olarak sistemden siler. Bu eylem geri döndürülemez.</string>
     <string name="profile_delete_btn">Profili Tamamen Sil</string>
     <string name="profile_saving">Kaydediliyor\u2026</string>
-
     <!-- CastDetailScreen -->
     <string name="cast_detail_error">Bir şeyler ters gitti.</string>
     <string name="cast_detail_retry">Tekrar Dene</string>
@@ -1135,17 +1081,14 @@
     <string name="cast_detail_born">Doğum: %1$s</string>
     <string name="cast_detail_born_died">Doğum: %1$s — †%2$s</string>
     <string name="cast_detail_age">%1$d yaşında</string>
-
     <!-- CatalogSeeAllScreen -->
     <string name="catalog_see_all_from">Kaynak: %1$s</string>
     <string name="catalog_see_all_empty_title">Görsel öğe bulunamadı</string>
     <string name="catalog_see_all_empty_subtitle">Daha sonra başka bir alt alan türünü denemek de faydalı olacaktır.</string>
-
     <!-- LayoutSelectionScreen -->
     <string name="layout_selection_welcome">Nuvio\'ya Hoş Geldiniz</string>
     <string name="layout_selection_subtitle">Ana sayfa düzeninizi seçin.</string>
     <string name="layout_selection_continue">Devam Et</string>
-
     <!-- UpdatePromptDialog -->
     <string name="update_title">Güncelleme</string>
     <string name="update_downloading">İndiriliyor</string>
@@ -1160,13 +1103,11 @@
     <string name="account_linked_devices">Bağlı Cihazlar (%1$d)</string>
     <string name="account_no_linked_devices">Bağlı cihaz yok</string>
     <string name="account_unlink">Bağlantıyı Kes</string>
-
     <!-- EpisodeRatingsSection -->
     <string name="ratings_loading">Bölüm puanları yükleniyor...</string>
     <string name="ratings_unavailable">Bölüm puanları mevcut değil.</string>
     <string name="ratings_load_error">Bölüm puanları yüklenemedi.</string>
     <string name="ratings_season_summary">Sezon %1$d | %2$d Bölüm</string>
-
     <!-- SearchDiscoverSection -->
     <string name="discover_title">Keşfet</string>
     <string name="discover_load_more">Daha Fazla</string>
@@ -1180,26 +1121,21 @@
     <string name="discover_empty_no_catalog_subtitle">Keşfetmek için bir katalog seçin</string>
     <string name="discover_empty_no_content_title">İçerik bulunamadı</string>
     <string name="discover_empty_no_content_subtitle">Farklı bir kategori veya katalog deneyin</string>
-
     <!-- AddonManagerScreen -->
     <string name="addon_confirm_total_addons">Toplam eklenti: %1$d</string>
     <string name="addon_confirm_total_catalogs">Toplam katalog: %1$d</string>
     <string name="addon_catalogs_types">%1$d Katalog | Tür: %2$s</string>
-
     <!-- PluginScreen -->
     <string name="plugin_and_more">... ve %1$d daha</string>
     <string name="plugin_providers_count">%1$d sağlayıcı</string>
     <string name="plugin_enabled">Etkin</string>
     <string name="plugin_disabled">Devre Dışı</string>
     <string name="plugin_no_repos">Henüz depo eklenmedi.\nBaşlamak için bir depo ekleyin.</string>
-
     <!-- ProfileSettingsContent -->
     <string name="profile_edit_title_id">Profili Düzenle: %1$d</string>
-
     <!-- PlaybackAudioSettings -->
     <string name="audio_passthrough_info">Yüksek kaliteli ses geçidi (TrueHD, DTS, AC-3) desteklenen HDMI veya uyumlu ses alıcı / arayüz bar donanımlarına bağlanıldığında yazılımın çözümüne bırakılmadan direkt doğrudan iletilir.</string>
     <string name="audio_dv_title">DV7 - HEVC Geri Yansıması</string>
-
     <!-- SidebarNavigation / MainActivity -->
     <string name="nav_home">Ana Menü</string>
     <string name="nav_discover">Keşfet</string>
@@ -1209,7 +1145,6 @@
     <string name="nav_settings">Ayarlar</string>
     <string name="settings_rounded_ui">Yuvarlak Arayüz</string>
     <string name="cd_expand_sidebar">Panel Sekmesini Büyüt</string>
-
     <string name="update_checking">Güncellemeler kontrol ediliyor…</string>
     <string name="update_download_complete">İndirme tamamlandı. Kurulum için hazır.</string>
     <string name="update_up_to_date">Sistem güncel. En son değişiklikler:</string>
@@ -1219,7 +1154,6 @@
     <string name="update_ignore">Atla</string>
     <string name="watchlist_added">İzleme listesine eklendi</string>
     <string name="watchlist_removed">İzleme listesinden kaldırıldı</string>
-
     <!-- Account -->
     <string name="account_signin_create_title">Giriş Yap / Hesap Oluştur</string>
     <string name="account_signin_create_desc">Hesabınıza giriş yapmak veya oluşturmak için e-posta ve şifre kullanın.</string>
@@ -1229,7 +1163,6 @@
     <string name="account_generate_sync_signed_in_desc">Diğer cihazların bu hesapla eşitlenmesi için bir kod oluşturun.</string>
     <string name="account_unknown_device">Bilinmeyen Cihaz</string>
     <string name="account_error_signin_required">Önce bir hesapla giriş yapın.</string>
-
     <!-- Hardware Decoding MPV -->
     <string name="audio_mpv_hwdec_title">Donanım Kod Çözme (Yalnızca MPV)</string>
     <string name="audio_mpv_hwdec_dialog_subtitle">libmpv\'nin donanım dekoderlerini nasıl kullanacağını seçin.</string>
@@ -1243,7 +1176,6 @@
     <string name="audio_mpv_hwdec_hardware_direct_desc">Doğrudan donanım kod çözme kullanır. Uyumlu cihazlarda en hızlı yol.</string>
     <string name="audio_mpv_hwdec_disabled">Devre dışı (no)</string>
     <string name="audio_mpv_hwdec_disabled_desc">Donanım kod çözmeyi devre dışı bırakır ve yalnızca yazılım kod çözme kullanır.</string>
-
     <!-- Player engine -->
     <string name="cd_switch_player_engine">Oynatıcı motorunu değiştir</string>
     <string name="playback_internal_player_engine">Dahili Motor</string>
@@ -1268,13 +1200,11 @@
     <string name="player_loading_building">Oynatıcı oluşturuluyor…</string>
     <string name="player_loading_starting">Akış başlatılıyor…</string>
     <string name="player_loading_buffering">Tamponlanıyor…</string>
-
     <!-- Autoplay timeout -->
     <string name="autoplay_timeout_title">Akış Seçimi Zaman Aşımı</string>
     <string name="autoplay_timeout_sub">Seçmeden önce eklentilerin bekleme süresi.</string>
     <string name="autoplay_timeout_instant">Anında</string>
     <string name="autoplay_timeout_unlimited">Sınırsız</string>
-
     <!-- Profile PIN errors -->
     <string name="profile_edit_header">Profili Düzenle</string>
     <string name="profile_pin_save_error">PIN kaydedilemedi. Tekrar deneyin.</string>
@@ -1282,30 +1212,24 @@
     <string name="profile_pin_invalid">Geçersiz PIN. Tekrar deneyin.</string>
     <string name="profile_pin_verify_error">PIN doğrulanamadı. Tekrar deneyin.</string>
     <string name="profile_pin_incorrect">Mevcut PIN yanlış.</string>
-
     <!-- Debug -->
     <string name="debug_generate_description">Debug oluşturuldu %1$s öğe #%2$d</string>
     <string name="debug_generate_result_failed">Başarısız: %1$s</string>
     <string name="debug_signin_success">Başarıyla giriş yapıldı</string>
-
     <!-- Discover -->
     <string name="discover_disabled_title">Keşfet devre dışı</string>
     <string name="discover_disabled_subtitle">Ayarlarda Arama Keşfet\'i etkinleştirin</string>
-
     <!-- Error -->
     <string name="error_network_required">Bu özelliği kullanmak için Wi-Fi veya Ethernet\'e bağlanın</string>
     <string name="error_server_ports_unavailable">Sunucu başlatılamadı. Tüm portlar kullanımda.</string>
-
     <!-- Home errors -->
     <string name="home_error_no_addons">Eklenti yüklü değil</string>
     <string name="home_error_no_catalog_addons">Katalog eklentisi yüklü değil</string>
-
     <!-- Library -->
     <string name="library_list_create_dialog_title">Liste Oluştur</string>
     <string name="library_list_edit_dialog_title">Listeyi Düzenle</string>
     <string name="library_sync_btn">Eşitle</string>
     <string name="library_syncing_btn">Eşitleniyor…</string>
-
     <!-- Plugin errors -->
     <string name="plugin_error_invalid_url">Lütfen geçerli bir URL girin</string>
     <string name="plugin_error_add_repo">Depo eklenemedi: %1$s</string>
@@ -1314,40 +1238,32 @@
     <string name="plugin_test_no_results">Sonuç bulunamadı</string>
     <string name="plugin_test_found_streams">%1$d akış bulundu</string>
     <string name="plugin_version">Sürüm %1$s</string>
-
     <!-- Ratings -->
     <string name="ratings_episode_label">B%1$d</string>
     <string name="ratings_season_label">S%1$d</string>
-
     <!-- Search -->
     <string name="search_recent_title">Son aramalar</string>
     <string name="search_recent_clear">Geçmişi temizle</string>
     <string name="search_error_no_catalogs">Yüklü eklentilerde aranabilir katalog bulunamadı</string>
     <string name="search_no_results_title">Sonuç Yok</string>
     <string name="search_no_results_subtitle">Farklı anahtar kelimelerle aramayı deneyin</string>
-
     <!-- Stream -->
     <string name="stream_episode_label">S%1$d B%2$d</string>
-
     <!-- Subtitle -->
     <string name="sub_mode_overlay_canvas_sub">Canvas görüntüleme ile HDR desteği. UI iş parçacığını engelleyebilir.</string>
     <string name="subtitle_built_in">Dahili</string>
     <string name="subtitle_style_weight">Kalınlık</string>
-
     <!-- Sync -->
     <string name="sync_claim_linking">Bağlanıyor…</string>
     <string name="sync_generate_generating">Oluşturuluyor…</string>
     <string name="sync_generate_code_btn">Kod Oluştur</string>
-
     <!-- TMDB -->
     <string name="tmdb_release_dates_title">Yayın Tarihleri</string>
     <string name="tmdb_release_dates_subtitle">TMDB\'den yayın ve yayın tarihleri</string>
-
     <!-- Trakt errors -->
     <string name="trakt_error_code_expired">Cihaz kodu süresi doldu. Tekrar başlayın.</string>
     <string name="trakt_error_code_used">Cihaz kodu zaten kullanıldı. Tekrar başlayın.</string>
     <string name="trakt_error_denied">Trakt\'ta yetkilendirme reddedildi.</string>
-
     <!-- Content descriptions -->
     <string name="cd_play">Oynat</string>
     <string name="cd_pause">Duraklat</string>
@@ -1386,5 +1302,4 @@
     <string name="cd_collapse">%1$s daralt</string>
     <string name="cd_qr_login">QR giriş kodu</string>
     <string name="cd_nuvio">Nuvio</string>
-
 </resources>

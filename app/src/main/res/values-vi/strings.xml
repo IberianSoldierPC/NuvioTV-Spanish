@@ -3,15 +3,12 @@
     <string name="type_movie">Phim</string>
     <string name="type_series">Chương trình TV</string>
     <string name="type_unknown">Không xác định</string>
-
     <!-- HomeScreen -->
     <string name="home_no_addons">Chưa cài addon nào. Thêm một addon để bắt đầu.</string>
     <string name="home_no_catalog_addons">Chưa cài addon danh mục nào. Cài addon danh mục để xem nội dung.</string>
     <string name="error_generic">Đã xảy ra lỗi</string>
-
     <!-- ErrorState -->
     <string name="action_retry">Thử lại</string>
-
     <!-- ContinueWatchingSection -->
     <string name="continue_watching">Xem tiếp</string>
     <string name="cw_upcoming">Sắp chiếu</string>
@@ -26,11 +23,9 @@
     <string name="cw_action_remove">Xoá</string>
     <string name="cw_dialog_subtitle">Chọn thao tác cho mục này.</string>
     <string name="home_poster_dialog_subtitle">Thao tác với tựa phim</string>
-
     <!-- CatalogRowSection -->
     <string name="catalog_from_addon">từ %1$s</string>
     <string name="action_see_all">Xem tất cả</string>
-
     <!-- HeroSection -->
     <string name="hero_creator">Tác giả: %1$s</string>
     <string name="hero_director">Đạo diễn: %1$s</string>
@@ -44,7 +39,6 @@
     <string name="hero_play_trailer">Xem trailer</string>
     <string name="hero_press_back_trailer">Nhấn quay lại để thoát trailer</string>
     <string name="cd_rating">Xếp hạng</string>
-
     <!-- EpisodesSection -->
     <string name="episodes_season">Phần %1$d</string>
     <string name="episodes_specials">Tập đặc biệt</string>
@@ -58,7 +52,6 @@
     <string name="episodes_mark_previous_watched">Đánh dấu các tập trước đã xem</string>
     <string name="episodes_play">Xem</string>
     <string name="episodes_season_actions">Thao tác với phần phim</string>
-
     <!-- MetaDetailsViewModel -->
     <string name="detail_added_to_library">Đã thêm vào thư viện</string>
     <string name="detail_removed_from_library">Đã xoá khỏi thư viện</string>
@@ -73,7 +66,6 @@
     <string name="detail_marked_episodes_watched">Đã đánh dấu %1$d tập đã xem</string>
     <string name="detail_marked_episodes_unwatched">Đã đánh dấu %1$d tập chưa xem</string>
     <string name="detail_marked_previous_watched">Đã đánh dấu %1$d tập trước đã xem</string>
-
     <!-- MetaDetailsScreen -->
     <string name="detail_btn_play">Xem</string>
     <string name="detail_btn_resume">Xem tiếp</string>
@@ -92,24 +84,20 @@
     <string name="detail_lists_subtitle">Chọn danh sách chứa tựa phim này.</string>
     <string name="action_save">Lưu</string>
     <string name="action_saving">Đang lưu…</string>
-
     <!-- AppLanguage -->
     <string name="appearance_language">Ngôn ngữ</string>
     <string name="appearance_language_subtitle">Thay đổi ngôn ngữ hệ thống</string>
     <string name="appearance_language_system">Ngôn ngữ hệ thống</string>
     <string name="appearance_language_dialog_title">Chọn ngôn ngữ</string>
     <string name="appearance_language_restart_hint">Khởi động lại ứng dụng để áp dụng ngôn ngữ mới.</string>
-
     <!-- Font -->
     <string name="appearance_font">Phông chữ</string>
     <string name="appearance_font_subtitle">Chọn phông chữ ưa thích</string>
     <string name="appearance_font_dialog_title">Chọn phông chữ</string>
-
     <!-- ThemeSettingsScreen -->
     <string name="appearance_title">Giao diện</string>
     <string name="appearance_subtitle">Chọn màu chủ đạo, phông chữ và ngôn ngữ</string>
     <string name="cd_selected">Đã chọn</string>
-
     <!-- AboutScreen -->
     <string name="about_title">Giới thiệu</string>
     <string name="about_subtitle">Thông tin ứng dụng, cập nhật và điều khoản</string>
@@ -119,7 +107,6 @@
     <string name="about_check_updates_subtitle">Tải phiên bản mới nhất</string>
     <string name="about_privacy_policy">Chính sách quyền riêng tư</string>
     <string name="about_privacy_policy_subtitle">Xem chính sách quyền riêng tư của chúng tôi</string>
-
     <!-- SettingsScreen categories -->
     <string name="settings_account">Tài khoản</string>
     <string name="settings_account_subtitle">Tài khoản và trạng thái đồng bộ.</string>
@@ -148,7 +135,6 @@
     <string name="settings_tmdb_subtitle">Tuỳ chỉnh bổ sung metadata</string>
     <string name="settings_mdblist_subtitle">Nhà cung cấp xếp hạng bên ngoài</string>
     <string name="settings_animeskip_subtitle">Dấu thời gian bỏ qua intro/outro anime</string>
-
     <!-- PlaybackSettingsScreen -->
     <string name="playback_title">Cài đặt trình phát</string>
     <string name="playback_subtitle">Cấu hình trình phát video và tuỳ chọn phụ đề</string>
@@ -156,7 +142,6 @@
     <string name="cd_increase">Tăng</string>
     <string name="action_cancel">Huỷ</string>
     <string name="action_none">Không có</string>
-
     <!-- PlaybackSettingsSections -->
     <string name="playback_section_general">Chung</string>
     <string name="playback_section_general_desc">Hành vi phát cơ bản.</string>
@@ -191,7 +176,6 @@
     <string name="playback_resolution_matching_sub">Cho phép thay đổi chế độ hiển thị để khớp độ phân giải video.</string>
     <string name="playback_player_external_desc">Luôn mở luồng trong ứng dụng bên ngoài</string>
     <string name="playback_player_ask_desc">Chọn trình phát mỗi lần phát</string>
-
     <!-- PlaybackAudioSettings -->
     <string name="audio_trailer_section">Trailer</string>
     <string name="audio_autoplay_trailers">Tự động phát trailer</string>
@@ -216,7 +200,6 @@
     <string name="audio_decoder_prefer_device_desc">Dùng bộ giải mã phần cứng khi có, dự phòng bằng FFmpeg. Khuyến nghị cho hầu hết thiết bị.</string>
     <string name="audio_decoder_prefer_app_desc">Dùng bộ giải mã FFmpeg khi có. Hỗ trợ nhiều định dạng hơn nhưng tốn CPU hơn.</string>
     <string name="audio_decoder_controls">Kiểm soát việc dùng bộ giải mã phần cứng hay phần mềm (FFmpeg) cho âm thanh và video</string>
-
     <!-- PlaybackSubtitleSettings -->
     <string name="sub_section">Phụ đề</string>
     <string name="sub_not_set">Chưa đặt</string>
@@ -259,7 +242,6 @@
     <string name="sub_startup_mode_fast_desc">Bắt đầu phát ngay. Chọn phụ đề addon có thể tải lại trình phát một lần.</string>
     <string name="sub_startup_mode_preferred_desc">Tải trước phụ đề addon và gắn rãnh ngôn ngữ ưa thích/thứ hai trước khi phát.</string>
     <string name="sub_startup_mode_all_desc">Tải trước và gắn tất cả phụ đề addon trước khi phát. Khởi động chậm nhất.</string>
-
     <!-- PlaybackAutoPlaySettings -->
     <string name="autoplay_reuse_last_link">Dùng lại link cũ</string>
     <string name="autoplay_reuse_last_link_sub">Tự động phát luồng đã dùng lần trước cho phim/tập này khi bộ nhớ đệm còn hợp lệ</string>
@@ -301,7 +283,6 @@
     <string name="autoplay_regex_matches">Khớp với tên/tiêu đề/mô tả/addon/url luồng. Ví dụ: 4K|2160p|Remux</string>
     <string name="autoplay_regex_presets">Cài đặt sẵn</string>
     <string name="autoplay_invalid_regex">Mẫu regex không hợp lệ</string>
-
     <!-- LayoutSettingsScreen -->
     <string name="layout_title">Cài đặt bố cục</string>
     <string name="layout_subtitle">Điều chỉnh bố cục màn hình chính, hiển thị nội dung và hành vi poster</string>
@@ -383,7 +364,6 @@
     <string name="layout_card_radius">Bán kính góc</string>
     <string name="layout_reset_default">Đặt lại mặc định</string>
     <string name="layout_custom">Tuỳ chỉnh</string>
-
     <!-- MDBListSettingsScreen -->
     <string name="mdblist_title">Xếp hạng MDBList</string>
     <string name="mdblist_subtitle">Cấu hình xếp hạng bên ngoài hiển thị trong hero chi tiết</string>
@@ -410,7 +390,6 @@
     <string name="mdblist_dialog_placeholder">Nhập API key MDBList</string>
     <string name="mdblist_not_set">Chưa đặt</string>
     <string name="mdblist_invalid_api_key">API key MDBList không hợp lệ</string>
-
     <!-- Anime-Skip -->
     <string name="animeskip_title">Anime Skip</string>
     <string name="animeskip_subtitle">Cấu hình Client ID Anime Skip để bỏ qua intro/outro anime</string>
@@ -423,7 +402,6 @@
     <string name="animeskip_dialog_placeholder">Nhập Client ID</string>
     <string name="animeskip_invalid_client_id">Client ID không hợp lệ</string>
     <string name="action_clear">Xoá</string>
-
     <!-- TmdbSettingsScreen -->
     <string name="tmdb_title">Bổ sung dữ liệu TMDB</string>
     <string name="tmdb_subtitle">Chọn trường metadata nào lấy từ TMDB</string>
@@ -450,7 +428,6 @@
     <string name="tmdb_collections_title">Bộ sưu tập</string>
     <string name="tmdb_collections_subtitle">Bộ sưu tập phim TMDB theo thứ tự phát hành</string>
     <string name="tmdb_language_dialog_title">Ngôn ngữ TMDB</string>
-
     <!-- TraktScreen -->
     <string name="trakt_description">Đồng bộ danh sách muốn xem, tiến độ, xem tiếp, scrobble và danh sách cá nhân với Trakt.</string>
     <string name="trakt_connected_as">Đã kết nối với %1$s</string>
@@ -491,7 +468,6 @@
     <string name="trakt_hide_unaired">Ẩn tập chưa phát sóng</string>
     <string name="trakt_all_history">Toàn bộ lịch sử</string>
     <string name="trakt_days_format">%1$d ngày</string>
-
     <!-- DebugSettingsScreen -->
     <string name="debug_title">Gỡ lỗi</string>
     <string name="debug_subtitle">Công cụ nhà phát triển và cờ tính năng (chỉ bản debug)</string>
@@ -513,7 +489,6 @@
     <string name="debug_error_dialog_title">Lỗi phát</string>
     <string name="debug_error_dialog_subtitle">Đã xảy ra lỗi trong quá trình phát.\n\nLỗi: Lỗi giả lập kiểm tra - đây không phải lỗi thực. Nguồn trả về HTTP 503 (Dịch vụ không khả dụng).</string>
     <string name="debug_dismiss">Bỏ qua</string>
-
     <!-- ProfileSettingsContent -->
     <string name="profile_title">Hồ sơ</string>
     <string name="profile_subtitle">Quản lý hồ sơ người dùng cho tài khoản này.</string>
@@ -533,7 +508,6 @@
     <string name="profile_delete">Xoá</string>
     <string name="profile_addons">addon</string>
     <string name="profile_plugins">plugin</string>
-
     <!-- AddonManagerScreen -->
     <string name="addon_title">Addon</string>
     <string name="addon_readonly_notice">Đang dùng addon của hồ sơ chính và không thể thay đổi</string>
@@ -560,7 +534,6 @@
     <string name="addon_confirm_no_changes">Không phát hiện thay đổi nào</string>
     <string name="addon_confirm_reject">Từ chối</string>
     <string name="addon_confirm_confirm">Xác nhận</string>
-
     <!-- CatalogOrderScreen -->
     <string name="catalog_order_title">Sắp xếp lại danh mục màn hình chính</string>
     <string name="catalog_order_subtitle">Kiểm soát thứ tự hàng danh mục trên màn hình chính (Cổ điển + Hiện đại + Lưới).</string>
@@ -568,7 +541,6 @@
     <string name="catalog_order_disabled_on_home">Đã tắt trên màn hình chính</string>
     <string name="catalog_order_enable">Bật</string>
     <string name="catalog_order_disable">Tắt</string>
-
     <!-- StreamScreen -->
     <string name="stream_retry">Thử lại</string>
     <string name="stream_no_streams">Không tìm thấy nguồn phát</string>
@@ -580,10 +552,8 @@
     <string name="stream_player_picker_title">Dùng trình phát nào?</string>
     <string name="stream_player_internal">Tích hợp</string>
     <string name="stream_player_external">Bên ngoài</string>
-
     <!-- PlayerScreen -->
     <string name="player_no_external_player">Không tìm thấy trình phát bên ngoài</string>
-
     <!-- ParentalGuideOverlay -->
     <string name="parental_nudity">Cảnh khoả thân</string>
     <string name="parental_violence">Bạo lực</string>
@@ -603,14 +573,12 @@
     <string name="player_more_speed">Tốc độ phát</string>
     <string name="player_more_aspect_ratio">Tỉ lệ khung hình</string>
     <string name="player_more_open_external">Mở trong trình phát bên ngoài</string>
-
     <!-- StreamSourcesSidePanel -->
     <string name="sources_title">Nguồn phát</string>
     <string name="sources_reload">Tải lại</string>
     <string name="sources_close">Đóng</string>
     <string name="sources_playing">Đang phát</string>
     <string name="sources_no_streams">Không tìm thấy nguồn</string>
-
     <!-- EpisodesSidePanel -->
     <string name="episodes_panel_close">Đóng</string>
     <string name="episodes_panel_back">Quay lại</string>
@@ -625,10 +593,8 @@
     <string name="player_aspect_fit_width">Vừa chiều rộng</string>
     <string name="player_aspect_fit_height">Vừa chiều cao</string>
     <string name="player_aspect_crop">Cắt xén</string>
-
     <!-- AudioDialog -->
     <string name="audio_dialog_title">Âm thanh</string>
-
     <!-- SubtitleDialog / SubtitleStyleSidePanel -->
     <string name="subtitle_dialog_title">Phụ đề</string>
     <string name="subtitle_no_builtin">Không có phụ đề tích hợp</string>
@@ -665,13 +631,11 @@
     <string name="subtitle_style_off">Tắt</string>
     <string name="panel_failed_load_streams">Tải nguồn thất bại</string>
     <string name="panel_failed_load_episodes">Tải tập phim thất bại</string>
-
     <!-- PauseOverlay -->
     <string name="pause_you_are_watching">Bạn đang xem</string>
     <string name="pause_cast_label">Diễn viên</string>
     <string name="pause_back_to_details">Quay lại chi tiết</string>
     <string name="pause_as_character">vai %1$s</string>
-
     <!-- NextEpisodeCardOverlay -->
     <string name="next_episode_label">Tập tiếp theo</string>
     <string name="next_episode_finding_source">Đang tìm nguồn…</string>
@@ -685,7 +649,6 @@
     <string name="skip_generic">Bỏ qua</string>
     <string name="display_mode_refresh">Làm mới</string>
     <string name="display_mode_resolution">Độ phân giải</string>
-
     <!-- SearchScreen -->
     <string name="search_keyboard_hint">Nhấn Xong trên bàn phím để tìm kiếm</string>
     <string name="search_placeholder">Tìm phim &amp; chương trình TV</string>
@@ -696,7 +659,6 @@
     <string name="search_voice_mic_permission">Cần quyền micro để tìm kiếm bằng giọng nói.</string>
     <string name="search_voice_failed">Nhận dạng giọng nói thất bại. Thử lại.</string>
     <string name="search_voice_unavailable">Tìm kiếm bằng giọng nói không khả dụng trên thiết bị này.</string>
-
     <!-- LibraryScreen -->
     <string name="library_syncing">Đang đồng bộ thư viện Trakt\u2026</string>
     <string name="library_title">Thư viện</string>
@@ -725,7 +687,6 @@
     <string name="library_empty_trakt_title">Chưa có %1$s trong danh sách này</string>
     <string name="library_empty_local_subtitle">Bắt đầu lưu yêu thích để xem ở đây</string>
     <string name="library_empty_trakt_subtitle">Dùng + trong chi tiết để thêm vào danh sách muốn xem hoặc danh sách</string>
-
     <!-- AccountSettingsContent -->
     <string name="account_loading">Đang tải\u2026</string>
     <string name="account_sync_description">Đồng bộ thư viện, tiến độ xem, addon và plugin trên các thiết bị.</string>
@@ -735,12 +696,10 @@
     <string name="account_total_label">Tổng cộng</string>
     <string name="account_loading_sync">Đang tải dữ liệu đồng bộ\u2026</string>
     <string name="account_sign_out">Đăng xuất</string>
-
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">Đăng nhập</string>
     <string name="auth_signin_tv_disabled">Nhập email/mật khẩu trên TV đã bị tắt. Tiếp tục bằng đăng nhập QR.</string>
     <string name="auth_signin_qr_btn">Tiếp tục bằng QR</string>
-
     <!-- AuthQrSignInScreen -->
     <string name="auth_qr_title">Đăng nhập bằng QR</string>
     <string name="auth_qr_account_login">Đăng nhập tài khoản</string>
@@ -759,7 +718,6 @@
     <string name="auth_qr_please_wait">Vui lòng đợi\u2026</string>
     <string name="auth_qr_continue">Tiếp tục</string>
     <string name="auth_qr_back">Quay lại</string>
-
     <!-- SyncCodeGenerateScreen -->
     <string name="sync_generate_title">Tạo mã đồng bộ</string>
     <string name="sync_generate_subtitle">Tạo mã PIN để bảo vệ mã đồng bộ. Chia sẻ mã với các thiết bị khác.</string>
@@ -768,7 +726,6 @@
     <string name="sync_generate_done">Xong</string>
     <string name="sync_generate_pin_label">Chọn PIN (4-8 ký tự)</string>
     <string name="sync_generate_pin_placeholder">Nhập PIN</string>
-
     <!-- SyncCodeClaimScreen -->
     <string name="sync_claim_title">Liên kết thiết bị</string>
     <string name="sync_claim_subtitle">Nhập mã đồng bộ và PIN từ thiết bị khác để liên kết thiết bị này.</string>
@@ -778,7 +735,6 @@
     <string name="sync_claim_code_placeholder">XXXX-XXXX-XXXX-XXXX-XXXX</string>
     <string name="sync_claim_pin_label">PIN</string>
     <string name="sync_claim_pin_placeholder">Nhập PIN</string>
-
     <!-- PluginScreen -->
     <string name="plugin_readonly_notice">Đang dùng plugin của hồ sơ chính và không thể thay đổi</string>
     <string name="plugin_repositories_section">Kho lưu trữ (%1$d)</string>
@@ -802,34 +758,28 @@
     <string name="plugin_updated_format">Cập nhật: %1$s</string>
     <string name="plugin_test_btn">Kiểm tra</string>
     <string name="plugin_test_results">Kết quả kiểm tra (%1$d luồng)</string>
-
     <!-- ProfileSelectionScreen -->
     <string name="profile_selection_title">Ai đang xem?</string>
     <string name="profile_selection_subtitle">Chọn hồ sơ để tiếp tục</string>
     <string name="profile_selection_hint">Dùng D-pad để chọn hồ sơ</string>
     <string name="profile_selection_empty">Không tìm thấy hồ sơ</string>
     <string name="profile_selection_primary_badge">CHÍNH</string>
-
     <!-- CastDetailScreen -->
     <string name="cast_detail_error">Đã xảy ra sự cố</string>
     <string name="cast_detail_retry">Thử lại</string>
     <string name="cast_detail_filmography">Sự nghiệp</string>
-
     <!-- CatalogSeeAllScreen -->
     <string name="catalog_see_all_from">từ %1$s</string>
     <string name="catalog_see_all_empty_title">Không có mục nào</string>
     <string name="catalog_see_all_empty_subtitle">Thử danh mục khác hoặc quay lại sau</string>
-
     <!-- LayoutSelectionScreen -->
     <string name="layout_selection_welcome">Chào mừng đến Nuvio</string>
     <string name="layout_selection_subtitle">Chọn bố cục màn hình chính</string>
     <string name="layout_selection_continue">Tiếp tục</string>
-
     <!-- UpdatePromptDialog -->
     <string name="update_title">Cập nhật ứng dụng</string>
     <string name="update_downloading">Đang tải bản cập nhật</string>
     <string name="update_unknown_sources">Cho phép cài đặt từ nguồn không xác định để tiếp tục.</string>
-
     <!-- AccountScreen -->
     <string name="account_title">Tài khoản</string>
     <string name="account_sign_in_description">Đăng nhập để đồng bộ thư viện, tiến độ xem, addon và plugin trên các thiết bị. Thư viện và tiến độ chỉ đồng bộ khi Trakt chưa kết nối.</string>
@@ -838,12 +788,10 @@
     <string name="account_linked_devices">Thiết bị đã liên kết (%1$d)</string>
     <string name="account_no_linked_devices">Chưa có thiết bị liên kết</string>
     <string name="account_unlink">Huỷ liên kết</string>
-
     <!-- EpisodeRatingsSection -->
     <string name="ratings_loading">Đang tải xếp hạng tập phim...</string>
     <string name="ratings_unavailable">Xếp hạng tập phim không khả dụng.</string>
     <string name="ratings_season_summary">Phần %1$d - %2$d tập</string>
-
     <!-- SearchDiscoverSection -->
     <string name="discover_title">Khám phá</string>
     <string name="discover_load_more">Tải thêm</string>
@@ -857,26 +805,21 @@
     <string name="discover_empty_no_catalog_subtitle">Chọn danh mục khám phá để duyệt</string>
     <string name="discover_empty_no_content_title">Không tìm thấy nội dung</string>
     <string name="discover_empty_no_content_subtitle">Thử thể loại hoặc danh mục khác</string>
-
     <!-- AddonManagerScreen -->
     <string name="addon_confirm_total_addons">Tổng addon: %1$d</string>
     <string name="addon_confirm_total_catalogs">Tổng danh mục: %1$d</string>
     <string name="addon_catalogs_types">Danh mục: %1$d - Loại: %2$s</string>
-
     <!-- PluginScreen -->
     <string name="plugin_and_more">... và %1$d nữa</string>
     <string name="plugin_providers_count">%1$d nhà cung cấp</string>
     <string name="plugin_enabled">Đã bật</string>
     <string name="plugin_disabled">Đã tắt</string>
     <string name="plugin_no_repos">Chưa thêm kho lưu trữ nào.\nThêm kho lưu trữ để bắt đầu.</string>
-
     <!-- ProfileSettingsContent -->
     <string name="profile_edit_title_id">Chỉnh sửa hồ sơ %1$d</string>
-
     <!-- PlaybackAudioSettings -->
     <string name="audio_passthrough_info">Audio passthrough (TrueHD, DTS, AC-3...) là tự động. Khi kết nối với bộ khuếch đại AV hoặc soundbar tương thích qua HDMI, âm thanh lossless được truyền nguyên vẹn mà không giải mã.</string>
     <string name="audio_dv_title">DV7 - Dự phòng HEVC</string>
-
     <!-- SidebarNavigation / MainActivity -->
     <string name="nav_home">Trang chủ</string>
     <string name="nav_discover">Khám phá</string>
@@ -886,7 +829,6 @@
     <string name="nav_settings">Cài đặt</string>
     <string name="settings_rounded_ui">Giao diện bo tròn</string>
     <string name="cd_expand_sidebar">Mở rộng thanh bên</string>
-
     <string name="update_close">Đóng</string>
     <string name="update_open_settings">Mở cài đặt</string>
     <string name="update_install">Cài đặt</string>

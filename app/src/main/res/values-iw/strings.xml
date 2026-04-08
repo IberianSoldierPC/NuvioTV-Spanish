@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nuvio</string>
     <string name="type_movie">סרט</string>
     <string name="type_series">סדרה</string>
     <string name="type_unknown">לא ידוע</string>
-
     <!-- HomeScreen -->
     <string name="home_no_addons">אין תוספים מותקנים. הוסף אחד כדי להתחיל.</string>
     <string name="home_no_catalog_addons">אין תוספי קטלוג מותקנים. התקן תוסף קטלוג כדי לראות תוכן.</string>
     <string name="auth_notice_nuvio_logged_out">יצאת מחשבון Nuvio. אנא התחבר מחדש.</string>
     <string name="auth_notice_trakt_logged_out">יצאת מחשבון Trakt. אנא התחבר מחדש.</string>
     <string name="error_generic">אירעה שגיאה</string>
-
     <!-- ErrorState -->
     <string name="action_retry">נסה שוב</string>
     <string name="error_state_generic_issue">משהו השתבש.</string>
@@ -42,7 +39,6 @@
     <string name="error_meta_tried_none">תוספי מטה שנוסו: %1$s. אף אחד לא סיפק מטה-דאטה עבור id=%2$s (type=%3$s).</string>
     <string name="error_meta_tried_generic">תוספי מטה שנוסו: %1$s. לא ניתן לטעון מטה-דאטה עבור id=%2$s (type=%3$s).</string>
     <string name="error_meta_tried_issues">תוספי מטה שנוסו: %1$s. לא ניתן לטעון מטה-דאטה עבור id=%2$s (type=%3$s). בעיות: %4$s.</string>
-
     <!-- ContinueWatchingSection -->
     <string name="continue_watching">המשך צפייה</string>
     <string name="cw_upcoming">בקרוב</string>
@@ -58,11 +54,9 @@
     <string name="cw_action_remove">הסר</string>
     <string name="cw_dialog_subtitle">בחר מה ברצונך לעשות עם פריט זה.</string>
     <string name="home_poster_dialog_subtitle">פעולות כותרת</string>
-
     <!-- CatalogRowSection -->
     <string name="catalog_from_addon">מ-%1$s</string>
     <string name="action_see_all">ראה הכל</string>
-
     <!-- HeroSection -->
     <string name="hero_creator">יוצר: %1$s</string>
     <string name="hero_director">במאי: %1$s</string>
@@ -76,7 +70,6 @@
     <string name="hero_play_trailer">הפעל טריילר</string>
     <string name="hero_press_back_trailer">לחץ חזרה ליציאה מהטריילר</string>
     <string name="cd_rating">דירוג</string>
-
     <!-- EpisodesSection -->
     <string name="episodes_season">עונה %1$d</string>
     <string name="episodes_specials">מיוחדים</string>
@@ -91,7 +84,6 @@
     <string name="episodes_play">הפעל</string>
     <string name="play_manually">הפעל ידנית</string>
     <string name="episodes_season_actions">פעולות עונה</string>
-
     <!-- MetaDetailsViewModel -->
     <string name="detail_added_to_library">נוסף לספרייה</string>
     <string name="detail_removed_from_library">הוסר מהספרייה</string>
@@ -106,7 +98,6 @@
     <string name="detail_marked_episodes_watched">פרקים שסומנו כנצפים: %1$d</string>
     <string name="detail_marked_episodes_unwatched">פרקים שסומנו כלא נצפים: %1$d</string>
     <string name="detail_marked_previous_watched">פרקים קודמים שסומנו כנצפים: %1$d</string>
-
     <!-- MetaDetailsScreen -->
     <string name="detail_btn_play">הפעל</string>
     <string name="detail_btn_resume">המשך</string>
@@ -135,24 +126,20 @@
     <string name="detail_lists_subtitle">בחר אילו רשימות יכללו כותרת זו.</string>
     <string name="action_save">שמור</string>
     <string name="action_saving">שומר…</string>
-
     <!-- AppLanguage -->
     <string name="appearance_language">שפת האפליקציה</string>
     <string name="appearance_language_subtitle">דרוס שפת מערכת</string>
     <string name="appearance_language_system">ברירת מחדל של המערכת</string>
     <string name="appearance_language_dialog_title">בחר שפה</string>
     <string name="appearance_language_restart_hint">הפעל מחדש את האפליקציה כדי להחיל את שינוי השפה.</string>
-
     <!-- Font -->
     <string name="appearance_font">גופן האפליקציה</string>
     <string name="appearance_font_subtitle">בחר את הגופן המועדף עליך</string>
     <string name="appearance_font_dialog_title">בחר גופן</string>
-
     <!-- ThemeSettingsScreen -->
     <string name="appearance_title">מראה</string>
     <string name="appearance_subtitle">בחר ערכת צבעים, גופן ושפה</string>
     <string name="cd_selected">נבחר</string>
-
     <!-- AboutScreen -->
     <string name="about_title">אודות</string>
     <string name="about_subtitle">מידע על האפליקציה, עדכונים וקישורים משפטיים</string>
@@ -164,7 +151,6 @@
     <string name="about_privacy_policy_subtitle">צפה במדיניות הפרטיות שלנו</string>
     <string name="about_supporters_contributors">תומכים ותורמים</string>
     <string name="about_supporters_contributors_subtitle">הכרה ציבורית וקרדיטים לפרויקט</string>
-
     <!-- SettingsScreen categories -->
     <string name="settings_account">חשבון</string>
     <string name="settings_account_subtitle">מצב חשבון וסנכרון.</string>
@@ -210,7 +196,6 @@
     <string name="settings_tmdb_subtitle">בקרות העשרת מטה-דאטה</string>
     <string name="settings_mdblist_subtitle">ספקי דירוג חיצוניים</string>
     <string name="settings_animeskip_subtitle">חותמות זמן לדילוג על הקדמות/סיומות אנימה</string>
-
     <!-- PlaybackSettingsScreen -->
     <string name="playback_title">הגדרות הפעלה</string>
     <string name="playback_subtitle">הגדר אפשרויות הפעלת וידאו וכתוביות</string>
@@ -219,7 +204,6 @@
     <string name="action_cancel">ביטול</string>
     <string name="action_none">ללא</string>
     <string name="action_close">סגור</string>
-
     <!-- SupportersContributorsScreen -->
     <string name="supporters_contributors_title">תומכים ותורמים</string>
     <string name="supporters_contributors_subtitle">האנשים שתומכים ב-Nuvio והתורמים הבונים אותו בטלוויזיה ובנייד.</string>
@@ -245,7 +229,6 @@
     <string name="contributors_show_kofi_qr">הצג QR Ko-fi</string>
     <string name="contributors_hide_kofi_qr">הסתר QR Ko-fi</string>
     <string name="contributors_profile_unavailable">קישור פרופיל GitHub אינו זמין.</string>
-
     <!-- PlaybackSettingsSections -->
     <string name="playback_section_general">כללי</string>
     <string name="playback_section_general_desc">התנהגות הפעלה בסיסית.</string>
@@ -265,7 +248,6 @@
     <string name="playback_player_external">חיצוני</string>
     <string name="playback_player_ask">שאל בכל פעם</string>
     <string name="playback_section_audio">שמע וטריילר</string>
-
     <!-- LayoutSettingsScreen -->
     <string name="layout_title">הגדרות פריסה</string>
     <string name="layout_subtitle">הגדר את מבנה הבית ואפשרויות הפוסטרים</string>
@@ -336,7 +318,6 @@
     <string name="layout_card_radius">רדיוס פינה</string>
     <string name="layout_reset_default">אפס לברירת מחדל</string>
     <string name="layout_custom">מותאם אישית</string>
-
     <!-- MDBListSettingsScreen -->
     <string name="mdblist_title">דירוגי MDBList</string>
     <string name="mdblist_subtitle">הגדר דירוגים חיצוניים המוצגים בהירו של פרטים</string>
@@ -363,7 +344,6 @@
     <string name="mdblist_dialog_placeholder">הזן מפתח API של MDBList</string>
     <string name="mdblist_not_set">לא הוגדר</string>
     <string name="mdblist_invalid_api_key">מפתח API של MDBList לא תקין</string>
-
     <!-- Anime-Skip -->
     <string name="animeskip_title">Anime Skip</string>
     <string name="animeskip_subtitle">הגדר את מזהה לקוח Anime Skip לדילוג על הקדמות/סיומות אנימה</string>
@@ -376,7 +356,6 @@
     <string name="animeskip_dialog_placeholder">הזן מזהה לקוח</string>
     <string name="animeskip_invalid_client_id">מזהה לקוח לא תקין</string>
     <string name="action_clear">נקה</string>
-
     <!-- TmdbSettingsScreen -->
     <string name="tmdb_title">העשרת TMDB</string>
     <string name="tmdb_subtitle">בחר אילו שדות מטה-דאטה יגיעו מ-TMDB</string>
@@ -403,7 +382,6 @@
     <string name="tmdb_collections_title">אוספים</string>
     <string name="tmdb_collections_subtitle">אוספי סרטים TMDB לפי סדר יציאה</string>
     <string name="tmdb_language_dialog_title">שפת TMDB</string>
-
     <!-- TraktScreen -->
     <string name="trakt_description">סנכרן את רשימת הצפייה, התקדמות, המשך צפייה, סקרובלינג ורשימות אישיות עם Trakt.</string>
     <string name="trakt_connected_as">מחובר כ-%1$s</string>
@@ -452,7 +430,6 @@
     <string name="trakt_hide_unaired">הסתר פרקים שטרם שודרו</string>
     <string name="trakt_all_history">כל ההיסטוריה</string>
     <string name="trakt_days_format">%1$d ימים</string>
-
     <!-- DebugSettingsScreen -->
     <string name="debug_title">ניפוי שגיאות</string>
     <string name="debug_subtitle">כלי מפתחים ודגלי פיצ׳רים (גרסאות debug בלבד)</string>
@@ -474,7 +451,6 @@
     <string name="debug_error_dialog_title">שגיאת הפעלה</string>
     <string name="debug_error_dialog_subtitle">אירעה שגיאה במהלך ההפעלה.\n\nשגיאה: שגיאה מדומה לבדיקה - זו אינה כשל אמיתי. המקור החזיר HTTP 503 (Service Unavailable).</string>
     <string name="debug_dismiss">סגור</string>
-
     <!-- ProfileSettingsContent -->
     <string name="profile_title">פרופילים</string>
     <string name="profile_subtitle">ניהול פרופילי משתמש עבור חשבון זה.</string>
@@ -510,7 +486,6 @@
     <string name="profile_add_new">הוסף פרופיל</string>
     <string name="profile_cancel">ביטול</string>
     <string name="profile_save">שמור</string>
-
     <!-- AddonManagerScreen -->
     <string name="addon_title">תוספים</string>
     <string name="addon_readonly_notice">משתמש בתוספים של הפרופיל הראשי ולא ניתן לשנות</string>
@@ -537,7 +512,6 @@
     <string name="addon_confirm_no_changes">לא זוהו שינויים גלויים</string>
     <string name="addon_confirm_reject">דחה</string>
     <string name="addon_confirm_confirm">אשר</string>
-
     <!-- CatalogOrderScreen -->
     <string name="catalog_order_title">סדר מחדש קטלוגי בית</string>
     <string name="catalog_order_subtitle">זה שולט על סדר שורות הקטלוג בבית (קלאסי + מודרני + רשת).</string>
@@ -545,7 +519,6 @@
     <string name="catalog_order_disabled_on_home">מושבת בבית</string>
     <string name="catalog_order_enable">הפעל</string>
     <string name="catalog_order_disable">השבת</string>
-
     <!-- StreamScreen -->
     <string name="stream_retry">נסה שוב</string>
     <string name="stream_no_streams">לא נמצאו זרמים</string>
@@ -557,10 +530,8 @@
     <string name="stream_player_picker_title">איזה נגן להשתמש?</string>
     <string name="stream_player_internal">פנימי</string>
     <string name="stream_player_external">חיצוני</string>
-
     <!-- PlayerScreen -->
     <string name="player_no_external_player">לא נמצא נגן חיצוני</string>
-
     <!-- ParentalGuideOverlay -->
     <string name="parental_nudity">עירום</string>
     <string name="parental_violence">אלימות</string>
@@ -580,14 +551,12 @@
     <string name="player_more_speed">מהירות הפעלה</string>
     <string name="player_more_aspect_ratio">יחס גובה-רוחב</string>
     <string name="player_more_open_external">פתח בנגן חיצוני</string>
-
     <!-- StreamSourcesSidePanel -->
     <string name="sources_title">מקורות</string>
     <string name="sources_reload">טען מחדש</string>
     <string name="sources_close">סגור</string>
     <string name="sources_playing">מנגן</string>
     <string name="sources_no_streams">לא נמצאו זרמים</string>
-
     <!-- EpisodesSidePanel -->
     <string name="episodes_panel_close">סגור</string>
     <string name="episodes_panel_back">חזרה</string>
@@ -602,7 +571,6 @@
     <string name="player_aspect_fit_width">התאם לרוחב</string>
     <string name="player_aspect_fit_height">התאם לגובה</string>
     <string name="player_aspect_crop">חתוך</string>
-
     <!-- AudioDialog -->
     <string name="audio_dialog_title">שמע</string>
     <string name="audio_dialog_tab_tracks">שמע</string>
@@ -614,7 +582,6 @@
     <string name="audio_mix_range">טווח: %1$d dB עד %2$d dB</string>
     <string name="audio_mix_range_saved">טווח: %1$d dB עד %2$d dB (שמור)</string>
     <string name="audio_mix_unavailable">הגברה אינה זמינה במכשיר זה</string>
-
     <!-- SubtitleDialog / SubtitleStyleSidePanel -->
     <string name="subtitle_dialog_title">כתוביות</string>
     <string name="subtitle_no_builtin">אין כתוביות מובנות זמינות</string>
@@ -652,13 +619,11 @@
     <string name="subtitle_style_off">כבוי</string>
     <string name="panel_failed_load_streams">טעינת זרמים נכשלה</string>
     <string name="panel_failed_load_episodes">טעינת פרקים נכשלה</string>
-
     <!-- PauseOverlay -->
     <string name="pause_you_are_watching">אתה צופה ב</string>
     <string name="pause_cast_label">שחקנים</string>
     <string name="pause_back_to_details">חזור לפרטים</string>
     <string name="pause_as_character">בתפקיד %1$s</string>
-
     <!-- NextEpisodeCardOverlay -->
     <string name="next_episode_label">פרק הבא</string>
     <string name="next_episode_finding_source">מחפש מקור…</string>
@@ -672,7 +637,6 @@
     <string name="skip_generic">דלג</string>
     <string name="display_mode_refresh">רענן</string>
     <string name="display_mode_resolution">רזולוציה</string>
-
     <!-- Navigation -->
     <string name="nav_home">בית</string>
     <string name="nav_discover">גלה</string>
@@ -682,7 +646,6 @@
     <string name="nav_settings">הגדרות</string>
     <string name="cd_expand_sidebar">הרחב סרגל צד</string>
     <string name="settings_rounded_ui">ממשק מעוגל</string>
-
     <!-- LibraryScreen -->
     <string name="library_syncing">מסנכרן ספריית Trakt\u2026</string>
     <string name="library_title">ספרייה</string>
@@ -716,7 +679,6 @@
     <string name="library_empty_trakt_title">אין %1$s ברשימה זו</string>
     <string name="library_empty_local_subtitle">התחל לשמור מועדפים כדי לראותם כאן</string>
     <string name="library_empty_trakt_subtitle">השתמש ב-+ בפרטים להוספת פריטים לרשימת צפייה</string>
-
     <!-- AccountSettingsContent -->
     <string name="account_title">חשבון</string>
     <string name="account_loading">טוען\u2026</string>
@@ -734,12 +696,10 @@
     <string name="account_linked_devices">מכשירים מקושרים (%1$d)</string>
     <string name="account_no_linked_devices">אין מכשירים מקושרים</string>
     <string name="account_unlink">בטל קישור</string>
-
     <!-- AuthSignInScreen -->
     <string name="auth_signin_title">התחברות</string>
     <string name="auth_signin_tv_disabled">הזנת אימייל/סיסמה בטלוויזיה מושבתת. המשך עם כניסת QR.</string>
     <string name="auth_signin_qr_btn">המשך עם QR</string>
-
     <!-- AuthQrSignInScreen -->
     <string name="auth_qr_title">התחבר עם QR</string>
     <string name="auth_qr_account_login">כניסה לחשבון</string>
@@ -758,7 +718,6 @@
     <string name="auth_qr_please_wait">אנא המתן\u2026</string>
     <string name="auth_qr_continue">המשך</string>
     <string name="auth_qr_back">חזרה</string>
-
     <!-- SyncCodeGenerateScreen -->
     <string name="sync_generate_title">צור קוד סנכרון</string>
     <string name="sync_generate_subtitle">צור PIN להגנה על קוד הסנכרון שלך. שתף את הקוד עם מכשיריך האחרים.</string>
@@ -767,7 +726,6 @@
     <string name="sync_generate_done">סיום</string>
     <string name="sync_generate_pin_label">בחר PIN (4-8 תווים)</string>
     <string name="sync_generate_pin_placeholder">הזן PIN</string>
-
     <!-- SyncCodeClaimScreen -->
     <string name="sync_claim_title">קשר מכשיר</string>
     <string name="sync_claim_subtitle">הזן את קוד הסנכרון וה-PIN מהמכשיר האחר שלך לקישור מכשיר זה.</string>
@@ -777,7 +735,6 @@
     <string name="sync_claim_code_placeholder">XXXX-XXXX-XXXX-XXXX-XXXX</string>
     <string name="sync_claim_pin_label">PIN</string>
     <string name="sync_claim_pin_placeholder">הזן PIN</string>
-
     <!-- PluginScreen -->
     <string name="plugin_title">פלאגינים</string>
     <string name="plugin_subtitle">ניהול scrapers וספקים מקומיים</string>
@@ -806,7 +763,6 @@
     <string name="plugin_enabled">מופעל</string>
     <string name="plugin_disabled">מושבת</string>
     <string name="plugin_no_repos">לא נוספו מאגרים עדיין.\nהוסף מאגר כדי להתחיל.</string>
-
     <!-- ProfileSelectionScreen -->
     <string name="profile_selection_title">מי צופה?</string>
     <string name="profile_selection_subtitle">בחר פרופיל להמשך</string>
@@ -819,22 +775,18 @@
     <string name="profile_delete_btn">מחק פרופיל</string>
     <string name="profile_saving">שומר\u2026</string>
     <string name="profile_edit_title_id">ערוך פרופיל %1$d</string>
-
     <!-- CastDetailScreen -->
     <string name="cast_detail_error">משהו השתבש</string>
     <string name="cast_detail_retry">נסה שוב</string>
     <string name="cast_detail_filmography">פילמוגרפיה</string>
-
     <!-- CatalogSeeAllScreen -->
     <string name="catalog_see_all_from">מ-%1$s</string>
     <string name="catalog_see_all_empty_title">אין פריטים זמינים</string>
     <string name="catalog_see_all_empty_subtitle">נסה קטלוג אחר או חזור מאוחר יותר</string>
-
     <!-- LayoutSelectionScreen -->
     <string name="layout_selection_welcome">ברוך הבא ל-Nuvio</string>
     <string name="layout_selection_subtitle">בחר את פריסת מסך הבית שלך</string>
     <string name="layout_selection_continue">המשך</string>
-
     <!-- LayoutSettingsScreen (additional) -->
     <string name="layout_section_content">תוכן הבית</string>
     <string name="layout_section_content_desc">שלוט במה שמופיע בבית ובחיפוש.</string>
@@ -847,7 +799,6 @@
     <string name="layout_landscape_posters_sub">עבור בין כרטיסים לאורך ולרוחב בתצוגה המודרנית.</string>
     <string name="layout_preview_row">הצג שורת תצוגה מקדימה</string>
     <string name="layout_preview_row_sub">הצג תצוגה מקדימה חלקית של השורה הבאה בפריסת הבית המודרני.</string>
-
     <!-- UpdatePromptDialog -->
     <string name="update_title">עדכון אפליקציה</string>
     <string name="update_downloading">מוריד עדכון</string>
@@ -861,7 +812,6 @@
     <string name="update_open_settings">פתח הגדרות</string>
     <string name="update_install">התקן</string>
     <string name="update_ignore">התעלם</string>
-
     <!-- SearchScreen -->
     <string name="search_placeholder">חפש סרטים וסדרות</string>
     <string name="search_start_title">התחל לחפש</string>
@@ -872,7 +822,6 @@
     <string name="search_voice_mic_permission">נדרשת הרשאת מיקרופון לחיפוש קולי.</string>
     <string name="search_voice_no_speech">לא זוהתה דיבור. נסה שוב.</string>
     <string name="search_voice_unavailable">חיפוש קולי אינו זמין במכשיר זה.</string>
-
     <!-- SearchDiscoverSection -->
     <string name="discover_title">גלה</string>
     <string name="discover_load_more">טען עוד</string>
@@ -886,22 +835,18 @@
     <string name="discover_empty_no_catalog_subtitle">בחר קטלוג גלה לגלישה</string>
     <string name="discover_empty_no_content_title">לא נמצא תוכן</string>
     <string name="discover_empty_no_content_subtitle">נסה ז׳אנר או קטלוג אחר</string>
-
     <!-- EpisodeRatingsSection -->
     <string name="ratings_loading">טוען דירוגי פרקים...</string>
     <string name="ratings_unavailable">דירוגי פרקים אינם זמינים.</string>
     <string name="ratings_load_error">לא ניתן לטעון דירוגי פרקים.</string>
     <string name="ratings_season_summary">עונה %1$d - %2$d פרקים</string>
-
     <!-- AddonManagerScreen (additional) -->
     <string name="addon_confirm_total_addons">סה״כ תוספים: %1$d</string>
     <string name="addon_confirm_total_catalogs">סה״כ קטלוגים: %1$d</string>
     <string name="addon_catalogs_types">קטלוגים: %1$d - סוגים: %2$s</string>
-
     <!-- Watchlist -->
     <string name="watchlist_added">נוסף לרשימת צפייה</string>
     <string name="watchlist_removed">הוסר מרשימת צפייה</string>
-
     <!-- Autoplay -->
     <string name="autoplay_stream_selection">בחירת זרם אוטומטית</string>
     <string name="autoplay_mode_first">הפעל מקור ראשון אוטומטית</string>
@@ -947,7 +892,6 @@
     <string name="autoplay_all_plugins">כל הפלאגינים המופעלים</string>
     <string name="autoplay_no_items">אין פריטים זמינים</string>
     <string name="autoplay_invalid_regex">תבנית regex לא תקינה</string>
-
     <!-- Playback (additional) -->
     <string name="playback_section_audio_desc">התנהגות טריילר ופקדי שמע.</string>
     <string name="playback_section_subtitles">כתוביות</string>
@@ -964,7 +908,6 @@
     <string name="playback_afr_on_start_stop_sub">החלף בהתחלה ושחזר בסיום.</string>
     <string name="playback_afr_open">פתוח</string>
     <string name="playback_afr_closed">סגור</string>
-
     <!-- Audio (additional) -->
     <string name="audio_section">שמע</string>
     <string name="audio_preferred_lang">שפת שמע מועדפת</string>
@@ -991,7 +934,6 @@
     <string name="audio_passthrough_info">מעבר שמע (TrueHD, DTS, AC-3 וכו׳) הוא אוטומטי. כשמחובר למקלט AV תואם או soundbar דרך HDMI, שמע ללא אובדן נשלח כמות שהוא ללא פענוח.</string>
     <string name="audio_dv_title">DV7 - נפילה ל-HEVC</string>
     <string name="audio_dv_sub">ממפה Dolby Vision Profile 7 ל-HEVC סטנדרטי למכשירים ללא תמיכת DV חומרתית</string>
-
     <!-- Subtitles (advanced) -->
     <string name="sub_section">כתוביות</string>
     <string name="sub_preferred_lang">שפה מועדפת</string>
